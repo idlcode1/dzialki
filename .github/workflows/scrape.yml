@@ -12,7 +12,7 @@ permissions:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
 
     steps:
       - name: 📥 Checkout repo
@@ -25,39 +25,47 @@ jobs:
           cache: 'pip'
           cache-dependency-path: scraper/requirements.txt
 
-      - name: 📦 Install dependencies
+      - name: 📦 Install Python dependencies
         run: pip install -r scraper/requirements.txt
 
-      - name: 🌐 Install Playwright browsers
-        run: playwright install chromium --with-deps
+      - name: 🌐 Install Playwright Chromium
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y \
+            libnss3 libnspr4 libatk1.0-0 libatk-bridge2.0-0 \
+            libcups2 libdrm2 libdbus-1-3 libxkbcommon0 \
+            libxcomposite1 libxdamage1 libxfixes3 libxrandr2 \
+            libgbm1 libasound2t64 libpango-1.0-0 libcairo2 \
+            libatspi2.0-0 libx11-6 libxext6 libxshmfence1
+          playwright install chromium
 
       - name: 🔍 Run scraper
         run: python scraper/scraper.py
 
       - name: 📊 Show results
+        if: always()
         run: |
           echo "=== Wyniki scrapowania ==="
           python -c "
-          import json
+          import json, os
+          if not os.path.exists('docs/data.json'):
+              print('Brak pliku data.json')
+              exit(0)
           with open('docs/data.json') as f:
               d = json.load(f)
-          print(f'Łącznie ofert: {d[\"total\"]}')
-          sources = {}
-          areas = {}
-          for item in d['listings']:
-              sources[item['source']] = sources.get(item['source'], 0) + 1
-              areas[item['location_area']] = areas.get(item['location_area'], 0) + 1
-          for k,v in sources.items():
+          print(f'Lacznie ofert: {d[\"total\"]}')
+          for k,v in d.get('by_source', {}).items():
               print(f'  {k}: {v}')
           print()
-          for k,v in areas.items():
+          for k,v in d.get('by_location', {}).items():
               print(f'  {k}: {v}')
           "
 
       - name: 💾 Commit & push data
+        if: always()
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add docs/data.json
           git diff --staged --quiet || git commit -m "🏡 Update listings $(date -u '+%Y-%m-%d %H:%M UTC')"
-          git push
+          git push || true
