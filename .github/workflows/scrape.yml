@@ -2,8 +2,9 @@ name: Scrape Działki
 
 on:
   schedule:
+    # Co 12 godzin: o 6:00 i 18:00 UTC (8:00 i 20:00 czasu polskiego)
     - cron: '0 6,18 * * *'
-  workflow_dispatch:
+  workflow_dispatch:  # Możliwość ręcznego uruchomienia
 
 permissions:
   contents: write
@@ -21,12 +22,37 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: scraper/requirements.txt
 
       - name: 📦 Install dependencies
         run: pip install -r scraper/requirements.txt
 
+      - name: 🌐 Install Playwright browsers
+        run: playwright install chromium --with-deps
+
       - name: 🔍 Run scraper
         run: python scraper/scraper.py
+
+      - name: 📊 Show results
+        run: |
+          echo "=== Wyniki scrapowania ==="
+          python -c "
+          import json
+          with open('docs/data.json') as f:
+              d = json.load(f)
+          print(f'Łącznie ofert: {d[\"total\"]}')
+          sources = {}
+          areas = {}
+          for item in d['listings']:
+              sources[item['source']] = sources.get(item['source'], 0) + 1
+              areas[item['location_area']] = areas.get(item['location_area'], 0) + 1
+          for k,v in sources.items():
+              print(f'  {k}: {v}')
+          print()
+          for k,v in areas.items():
+              print(f'  {k}: {v}')
+          "
 
       - name: 💾 Commit & push data
         run: |
