@@ -53,14 +53,15 @@ LOCATION_KEYWORDS = {
 LOCATIONS = {
     "rzeszow": {
         "label": "Rzeszów i okolice (30 km)",
-        # Otodom — poprawny URL (zakopane działa, rzeszów ma inną ścieżkę)
         "otodom_url":        "https://www.otodom.pl/pl/wyniki/sprzedaz/dzialka/podkarpackie?distanceRadius=30&locations=%5Bcities_6-935%5D&viewType=listing",
         "olx_url":           "https://www.olx.pl/nieruchomosci/dzialki/sprzedaz/rzeszow/?search[dist]=30",
         "domiporta_url":     "https://www.domiporta.pl/dzialka/sprzedam/podkarpackie/rzeszowski",
-        # Portale JS — Playwright
-        "gratka_url":        "https://gratka.pl/nieruchomosci/dzialki/podkarpackie?promien=30&lokalizacja_miejscowosc=Rzesz%C3%B3w&transakcja=sprzedaz",
-        "nieruchomosci_url": "https://www.nieruchomosci-online.pl/szukaj.html?3,dzialka,sprzedaz,,Rzesz%C3%B3w,,,30",
-        "adresowo_url":      "https://adresowo.pl/dzialki/rzeszow/",
+        # Gratka: uproszczony URL bez polskich znaków w parametrach
+        "gratka_url":        "https://gratka.pl/nieruchomosci/dzialki?lokalizacja_miejscowosc=Rzeszow&promien=30&transakcja=sprzedaz",
+        # N-online: nowy format URL
+        "nieruchomosci_url": "https://www.nieruchomosci-online.pl/wyniki.html?typ=dzialka&transakcja=sprzedaz&lokalizacja=Rzesz%C3%B3w&promien=30",
+        # Adresowo: bezpośredni URL bez filtru który blokuje
+        "adresowo_url":      "https://adresowo.pl/dzialki/fdk/rzeszow/",
         "morizon_url":       "https://www.morizon.pl/dzialki/rzeszow/",
     },
     "zakopane": {
@@ -68,9 +69,9 @@ LOCATIONS = {
         "otodom_url":        "https://www.otodom.pl/pl/wyniki/sprzedaz/dzialka/malopolskie/tatrzanski/zakopane?distanceRadius=20&viewType=listing",
         "olx_url":           "https://www.olx.pl/nieruchomosci/dzialki/sprzedaz/zakopane/?search[dist]=20",
         "domiporta_url":     "https://www.domiporta.pl/dzialka/sprzedam/malopolskie/tatrzanski",
-        "gratka_url":        "https://gratka.pl/nieruchomosci/dzialki/malopolskie?promien=20&lokalizacja_miejscowosc=Zakopane&transakcja=sprzedaz",
-        "nieruchomosci_url": "https://www.nieruchomosci-online.pl/szukaj.html?3,dzialka,sprzedaz,,Zakopane,,,20",
-        "adresowo_url":      "https://adresowo.pl/dzialki/zakopane/",
+        "gratka_url":        "https://gratka.pl/nieruchomosci/dzialki?lokalizacja_miejscowosc=Zakopane&promien=20&transakcja=sprzedaz",
+        "nieruchomosci_url": "https://www.nieruchomosci-online.pl/wyniki.html?typ=dzialka&transakcja=sprzedaz&lokalizacja=Zakopane&promien=20",
+        "adresowo_url":      "https://adresowo.pl/dzialki/fma/zakopane/",
         "morizon_url":       "https://www.morizon.pl/dzialki/zakopane/",
     },
 }
@@ -149,7 +150,7 @@ def make_item(source, location, location_key, title, price, area, city, desc, im
 def pw_get_html(page, url, wait_selector=None, wait_ms=3000):
     """Ładuje stronę Playwrightem i zwraca HTML po wyrenderowaniu JS."""
     try:
-        page.goto(url, wait_until="networkidle", timeout=35000)
+        page.goto(url, wait_until="networkidle", timeout=45000)
         if wait_selector:
             try:
                 page.wait_for_selector(wait_selector, timeout=10000)
@@ -476,35 +477,40 @@ def scrape_with_playwright(location_key, location, pw_browser):
             "source":   "Gratka",
             "url_key":  "gratka_url",
             "domain":   "https://gratka.pl",
-            "wait_sel": "article.listing__item, [data-url], .listing-item",
-            "cards":    ["article.listing__item", "[data-url]", ".listing-item", "article.offer"],
+            # Gratka: oferty są w article z data-url lub .listing__item
+            "wait_sel": "article[data-url], .listing__item, .offer-item",
+            "cards":    ["article[data-url]", ".listing__item", ".offer-item", "article.offer", "[data-url]"],
             "pages":    4,
-            "page_param": "&strona=",
+            "page_param": "&page=",
         },
         {
             "source":   "Nieruchomosci-online",
             "url_key":  "nieruchomosci_url",
             "domain":   "https://www.nieruchomosci-online.pl",
-            "wait_sel": ".property-list-item, .offer-item, article",
-            "cards":    [".property-list-item", ".offer-item", "article.property", "article"],
+            # N-online: oferty w .box__us lub article lub .grid li
+            "wait_sel": ".box__us, .property-list-item, .offer-item",
+            "cards":    [".property-list-item", ".box__us--cta", ".box__us", ".offer-item", "article"],
             "pages":    4,
-            "page_param": "&p=",
+            "page_param": "&page=",
         },
         {
             "source":   "Adresowo",
             "url_key":  "adresowo_url",
             "domain":   "https://adresowo.pl",
-            "wait_sel": ".property-box, .offer-item, article, .listing-item",
-            "cards":    [".property-box", ".offer-item", ".listing-item", "article.offer", "li.search-result"],
+            # Adresowo blokuje cookie bannerem cky-* — trzeba go zamknąć
+            "wait_sel": ".property-box, .offer-box, article, .flat-box",
+            "cards":    [".property-box", ".offer-box", ".flat-box", "article.offer", ".listing-item", "article"],
             "pages":    4,
-            "page_param": "?strona=",
+            "page_param": "?page=",
+            "dismiss_cookie": True,
         },
         {
             "source":   "Morizon",
             "url_key":  "morizon_url",
             "domain":   "https://www.morizon.pl",
-            "wait_sel": ".property-list-item, [class*='PropertyCard'], article",
-            "cards":    [".property-list-item", "[class*='PropertyCard']", "[class*='offerCard']", "article"],
+            # Morizon: klasa card jest! Szukamy card z linkiem do oferty
+            "wait_sel": ".card, .offer-item, [class*='listing']",
+            "cards":    [".card.card--border", ".card", ".offer-item", "[class*='offerCard']"],
             "pages":    4,
             "page_param": "?page=",
         },
@@ -527,8 +533,15 @@ def scrape_with_playwright(location_key, location, pw_browser):
             html = pw_get_html(page, url, wait_selector=portal["wait_sel"], wait_ms=6000)
 
             if pg == 1:
+                # Zawsze próbuj zamknąć banery cookie
                 dismiss_cookie_banners(page)
-                page.wait_for_timeout(500)
+                page.wait_for_timeout(1500)
+                # Dla portali z cookie bannerem czekaj na właściwy selektor
+                if portal.get("dismiss_cookie"):
+                    try:
+                        page.wait_for_selector(portal["wait_sel"], timeout=12000)
+                    except PWTimeout:
+                        pass
                 html = page.content()  # odśwież po zamknięciu bannera
 
             items = _pw_parse_cards(html, source, location, location_key, portal["cards"], portal["domain"])
