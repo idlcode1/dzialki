@@ -149,12 +149,12 @@ def make_item(source, location, location_key, title, price, area, city, desc, im
 def pw_get_html(page, url, wait_selector=None, wait_ms=3000):
     """Ładuje stronę Playwrightem i zwraca HTML po wyrenderowaniu JS."""
     try:
-        page.goto(url, wait_until="domcontentloaded", timeout=30000)
+        page.goto(url, wait_until="networkidle", timeout=35000)
         if wait_selector:
             try:
-                page.wait_for_selector(wait_selector, timeout=8000)
+                page.wait_for_selector(wait_selector, timeout=10000)
             except PWTimeout:
-                pass
+                page.wait_for_timeout(wait_ms)
         else:
             page.wait_for_timeout(wait_ms)
         return page.content()
@@ -400,7 +400,14 @@ def _pw_parse_cards(html, source, location, location_key, card_selectors, base_d
             break
 
     if not cards:
+        # Wypisz dostępne klasy żeby znaleźć właściwy selektor
         log.warning(f"[{source}] brak kart w HTML ({len(html)} znaków)")
+        all_classes = []
+        for tag in soup.find_all(["article", "li", "div", "section"], class_=True)[:80]:
+            for c in tag.get("class", []):
+                if len(c) > 3 and c not in all_classes:
+                    all_classes.append(c)
+        log.warning(f"[{source}] klasy elementów: {sorted(all_classes)[:50]}")
         return results
 
     for card in cards:
@@ -517,7 +524,7 @@ def scrape_with_playwright(location_key, location, pw_browser):
                 sep = portal["page_param"]
                 url = base_url + sep + str(pg)
 
-            html = pw_get_html(page, url, wait_selector=portal["wait_sel"], wait_ms=4000)
+            html = pw_get_html(page, url, wait_selector=portal["wait_sel"], wait_ms=6000)
 
             if pg == 1:
                 dismiss_cookie_banners(page)
