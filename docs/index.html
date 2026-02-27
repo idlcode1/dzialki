@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Działki na Sprzedaż</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --soil: #2c1a0e;
+      --earth: #5c3d1e;
+      --moss: #3d5c2e;
+      --sage: #7a9b6b;
+      --straw: #d4b483;
+      --cream: #f5f0e8;
+      --fog:   #ece8e0;
+      --white: #fdfaf5;
+      --sky:   #c9dde8;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--cream);
+      font-family: 'DM Sans', sans-serif;
+      color: var(--soil);
+      min-height: 100vh;
+    }
+
+    /* ── HEADER ── */
+    header {
+      background: var(--soil);
+      padding: 0 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1.5rem;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 20px rgba(0,0,0,0.3);
+      flex-wrap: wrap;
+      min-height: 72px;
+    }
+
+    .logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--straw);
+      letter-spacing: -0.02em;
+      white-space: nowrap;
+    }
+    .logo span { color: var(--sage); }
+
+    .header-controls {
+      display: flex;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+      align-items: center;
+      padding: 0.75rem 0;
+    }
+
+    select, input[type=text], input[type=number] {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(212,180,131,0.3);
+      color: var(--cream);
+      padding: 0.45rem 0.85rem;
+      border-radius: 6px;
+      font-family: inherit;
+      font-size: 0.82rem;
+      outline: none;
+      cursor: pointer;
+      transition: border-color .2s;
+    }
+    select:hover, input:hover { border-color: var(--straw); }
+    select option { background: var(--soil); color: var(--cream); }
+    input::placeholder { color: rgba(212,180,131,0.5); }
+
+    .search-input {
+      width: 200px;
+    }
+
+    #last-updated {
+      font-size: 0.75rem;
+      color: rgba(212,180,131,0.55);
+      white-space: nowrap;
+    }
+
+    /* ── HERO BAR ── */
+    .hero-bar {
+      background: linear-gradient(135deg, var(--earth) 0%, var(--moss) 100%);
+      padding: 2.5rem 2rem 2rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero-bar::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    }
+    .hero-bar h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.5rem, 4vw, 2.5rem);
+      color: var(--white);
+      position: relative;
+    }
+    .hero-bar p {
+      color: rgba(255,255,255,0.7);
+      margin-top: 0.4rem;
+      font-size: 0.9rem;
+      position: relative;
+    }
+
+    /* ── STATS BAR ── */
+    .stats-bar {
+      display: flex;
+      gap: 0;
+      background: var(--fog);
+      border-bottom: 1px solid rgba(92,61,30,0.1);
+      overflow-x: auto;
+    }
+    .stat {
+      flex: 1;
+      min-width: 120px;
+      padding: 1rem 1.5rem;
+      text-align: center;
+      border-right: 1px solid rgba(92,61,30,0.1);
+    }
+    .stat:last-child { border-right: none; }
+    .stat-value {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: var(--earth);
+      line-height: 1;
+    }
+    .stat-label {
+      font-size: 0.72rem;
+      color: var(--earth);
+      opacity: 0.6;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-top: 0.25rem;
+    }
+
+    /* ── MAIN LAYOUT ── */
+    .main { padding: 1.5rem 2rem 3rem; max-width: 1600px; margin: 0 auto; }
+
+    /* ── ACTIVE FILTERS ── */
+    .active-filters {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      margin-bottom: 1rem;
+      min-height: 1.5rem;
+    }
+    .filter-tag {
+      background: var(--earth);
+      color: var(--cream);
+      font-size: 0.75rem;
+      padding: 0.25rem 0.65rem;
+      border-radius: 999px;
+      display: flex;
+      align-items: center;
+      gap: 0.35rem;
+      cursor: pointer;
+      transition: background .15s;
+    }
+    .filter-tag:hover { background: var(--moss); }
+    .filter-tag .x { font-size: 0.85rem; opacity: 0.7; }
+
+    /* ── GRID ── */
+    #grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1.5rem;
+    }
+
+    /* ── CARD ── */
+    .card {
+      background: var(--white);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(44,26,14,0.08);
+      transition: transform .2s, box-shadow .2s;
+      display: flex;
+      flex-direction: column;
+      animation: fadeUp 0.4s ease both;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 28px rgba(44,26,14,0.15);
+    }
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(16px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    /* ── IMAGE ── */
+    .card-img {
+      position: relative;
+      height: 200px;
+      background: var(--fog);
+      overflow: hidden;
+    }
+    .card-img img {
+      width: 100%; height: 100%;
+      object-fit: cover;
+      transition: transform .4s ease;
+    }
+    .card:hover .card-img img { transform: scale(1.04); }
+    .card-img .no-img {
+      width: 100%; height: 100%;
+      display: flex; align-items: center; justify-content: center;
+      flex-direction: column;
+      gap: 0.5rem;
+      color: rgba(92,61,30,0.3);
+      font-size: 0.8rem;
+    }
+    .no-img svg { opacity: 0.25; }
+
+    .source-badge {
+      position: absolute;
+      top: 0.65rem;
+      left: 0.65rem;
+      background: rgba(44,26,14,0.82);
+      color: var(--straw);
+      font-size: 0.68rem;
+      font-weight: 500;
+      padding: 0.25rem 0.6rem;
+      border-radius: 999px;
+      backdrop-filter: blur(4px);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+    .area-badge {
+      position: absolute;
+      top: 0.65rem;
+      right: 0.65rem;
+      background: rgba(61,92,46,0.85);
+      color: #e8f5e2;
+      font-size: 0.68rem;
+      font-weight: 500;
+      padding: 0.25rem 0.6rem;
+      border-radius: 999px;
+      backdrop-filter: blur(4px);
+    }
+
+    /* ── BODY ── */
+    .card-body {
+      padding: 1rem 1.1rem 1.1rem;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .card-price {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: var(--earth);
+    }
+    .card-price .per-m2 {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.75rem;
+      color: var(--sage);
+      font-weight: 400;
+      margin-left: 0.4rem;
+    }
+    .no-price { color: rgba(92,61,30,0.35); font-size: 0.85rem; font-style: italic; }
+
+    .card-title {
+      font-size: 0.9rem;
+      font-weight: 500;
+      line-height: 1.4;
+      color: var(--soil);
+    }
+
+    .card-meta {
+      display: flex;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+      margin-top: 0.15rem;
+    }
+    .meta-item {
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+      font-size: 0.78rem;
+      color: rgba(44,26,14,0.55);
+    }
+    .meta-item svg { flex-shrink: 0; }
+
+    .card-desc {
+      font-size: 0.8rem;
+      color: rgba(44,26,14,0.55);
+      line-height: 1.5;
+      flex: 1;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .card-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      margin-top: 0.5rem;
+      padding: 0.55rem 1rem;
+      background: var(--soil);
+      color: var(--straw);
+      text-decoration: none;
+      border-radius: 7px;
+      font-size: 0.82rem;
+      font-weight: 500;
+      transition: background .15s;
+      align-self: flex-start;
+    }
+    .card-link:hover { background: var(--earth); }
+
+    /* ── LOADING / EMPTY ── */
+    #loading {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 5rem 0;
+      gap: 1rem;
+      color: rgba(92,61,30,0.5);
+    }
+    .spinner {
+      width: 44px; height: 44px;
+      border: 3px solid rgba(92,61,30,0.15);
+      border-top-color: var(--earth);
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    #empty {
+      display: none;
+      text-align: center;
+      padding: 5rem 0;
+      color: rgba(92,61,30,0.4);
+    }
+    #empty svg { opacity: 0.2; margin-bottom: 1rem; }
+    #empty p { font-size: 1rem; }
+
+    /* ── PAGINATION ── */
+    #pagination {
+      display: flex;
+      justify-content: center;
+      gap: 0.5rem;
+      margin-top: 2.5rem;
+      flex-wrap: wrap;
+    }
+    .page-btn {
+      padding: 0.5rem 0.9rem;
+      border: 1px solid rgba(92,61,30,0.2);
+      background: var(--white);
+      color: var(--soil);
+      border-radius: 6px;
+      cursor: pointer;
+      font-family: inherit;
+      font-size: 0.85rem;
+      transition: all .15s;
+    }
+    .page-btn:hover { background: var(--fog); }
+    .page-btn.active { background: var(--soil); color: var(--straw); border-color: var(--soil); }
+    .page-btn:disabled { opacity: 0.35; cursor: default; }
+
+    /* ── ERROR ── */
+    #error-msg {
+      background: #fff3f3;
+      border: 1px solid #f5c0c0;
+      color: #8b2020;
+      padding: 1rem 1.5rem;
+      border-radius: 8px;
+      margin-bottom: 1.5rem;
+      display: none;
+      font-size: 0.88rem;
+    }
+
+    @media (max-width: 640px) {
+      header { gap: 0.5rem; }
+      .search-input { width: 140px; }
+      .main { padding: 1rem; }
+      #grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">Działki<span>PL</span></div>
+  <div class="header-controls">
+    <input type="text" class="search-input" id="q" placeholder="🔍 Szukaj..." oninput="applyFilters()" />
+    <select id="f-area" onchange="applyFilters()">
+      <option value="">📍 Wszystkie lokalizacje</option>
+      <option value="Rzeszów">Rzeszów i okolice</option>
+      <option value="Zakopane">Zakopane i okolice</option>
+    </select>
+    <select id="f-source" onchange="applyFilters()">
+      <option value="">🏠 Wszystkie portale</option>
+      <option value="Otodom">Otodom</option>
+      <option value="OLX">OLX</option>
+      <option value="Gratka">Gratka</option>
+      <option value="Nieruchomosci-online">Nieruchomosci-online</option>
+      <option value="Domiporta">Domiporta</option>
+      <option value="Adresowo">Adresowo</option>
+      <option value="Morizon">Morizon</option>
+    </select>
+    <select id="f-sort" onchange="applyFilters()">
+      <option value="newest">Najnowsze</option>
+      <option value="price_asc">Cena: rosnąco</option>
+      <option value="price_desc">Cena: malejąco</option>
+      <option value="area_asc">Powierzchnia: rosnąco</option>
+    </select>
+    <input type="number" id="f-max-price" placeholder="Max cena (PLN)" style="width:160px" oninput="applyFilters()" />
+    <span id="last-updated"></span>
+  </div>
+</header>
+
+<div class="hero-bar">
+  <h1>🌿 Działki na Sprzedaż</h1>
+  <p>Rzeszów (30 km) · Zakopane (20 km) · Aktualizacja co 12 godzin</p>
+</div>
+
+<div class="stats-bar">
+  <div class="stat"><div class="stat-value" id="s-total">—</div><div class="stat-label">Wszystkich ofert</div></div>
+  <div class="stat"><div class="stat-value" id="s-rzeszow">—</div><div class="stat-label">Rzeszów</div></div>
+  <div class="stat"><div class="stat-value" id="s-zakopane">—</div><div class="stat-label">Zakopane</div></div>
+  <div class="stat"><div class="stat-value" id="s-avg-price">—</div><div class="stat-label">Śr. cena</div></div>
+  <div class="stat"><div class="stat-value" id="s-filtered">—</div><div class="stat-label">Filtrowane</div></div>
+</div>
+
+<div class="main">
+  <div id="error-msg"></div>
+  <div class="active-filters" id="active-filters"></div>
+  <div id="loading"><div class="spinner"></div><p>Ładowanie ofert…</p></div>
+  <div id="empty">
+    <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    <p>Brak ofert spełniających kryteria.</p>
+  </div>
+  <div id="grid"></div>
+  <div id="pagination"></div>
+</div>
+
+<script>
+  const DATA_URL = 'data.json';
+  const PER_PAGE = 24;
+  let allListings = [];
+  let filtered = [];
+  let page = 1;
+
+  // ── FETCH ──
+  async function loadData() {
+    try {
+      const res = await fetch(DATA_URL + '?t=' + Date.now());
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
+      allListings = data.listings || [];
+
+      // Stats
+      document.getElementById('s-total').textContent = allListings.length;
+      document.getElementById('s-rzeszow').textContent =
+        allListings.filter(l => l.location_area?.includes('Rzeszów')).length;
+      document.getElementById('s-zakopane').textContent =
+        allListings.filter(l => l.location_area?.includes('Zakopane')).length;
+
+      const prices = allListings.map(l => l.price).filter(Boolean);
+      if (prices.length) {
+        const avg = Math.round(prices.reduce((a, b) => a + b, 0) / prices.length);
+        document.getElementById('s-avg-price').textContent = fmt(avg);
+      }
+
+      if (data.updated_at) {
+        const d = new Date(data.updated_at);
+        document.getElementById('last-updated').textContent =
+          `Akt. ${d.toLocaleDateString('pl-PL')} ${d.toLocaleTimeString('pl-PL', {hour:'2-digit',minute:'2-digit'})}`;
+      }
+
+      document.getElementById('loading').style.display = 'none';
+      applyFilters();
+    } catch (e) {
+      document.getElementById('loading').style.display = 'none';
+      const errEl = document.getElementById('error-msg');
+      errEl.style.display = 'block';
+      errEl.innerHTML = `
+        <strong>Nie można załadować danych.</strong><br>
+        Jeśli to świeże repozytorium, uruchom najpierw workflow GitHub Actions ręcznie
+        (<em>Actions → Scrape Działki → Run workflow</em>), żeby wygenerować plik <code>data.json</code>.<br><br>
+        <small>Szczegóły: ${e.message}</small>
+      `;
+      // Show demo data
+      loadDemo();
+    }
+  }
+
+  function loadDemo() {
+    const demo = generateDemo();
+    allListings = demo;
+    document.getElementById('s-total').textContent = demo.length + ' (demo)';
+    document.getElementById('s-rzeszow').textContent = demo.filter(l=>l.location_area.includes('Rzeszów')).length;
+    document.getElementById('s-zakopane').textContent = demo.filter(l=>l.location_area.includes('Zakopane')).length;
+    const prices = demo.map(l=>l.price).filter(Boolean);
+    document.getElementById('s-avg-price').textContent = fmt(Math.round(prices.reduce((a,b)=>a+b,0)/prices.length));
+    applyFilters();
+  }
+
+  // ── FILTERS ──
+  function applyFilters() {
+    const q = document.getElementById('q').value.toLowerCase();
+    const area = document.getElementById('f-area').value;
+    const source = document.getElementById('f-source').value;
+    const sort = document.getElementById('f-sort').value;
+    const maxPrice = parseInt(document.getElementById('f-max-price').value) || Infinity;
+
+    filtered = allListings.filter(l => {
+      if (area && !l.location_area?.includes(area)) return false;
+      if (source && l.source !== source) return false;
+      if (l.price && l.price > maxPrice) return false;
+      if (q && !(`${l.title} ${l.city} ${l.description}`).toLowerCase().includes(q)) return false;
+      return true;
+    });
+
+    if (sort === 'price_asc') filtered.sort((a,b) => (a.price||Infinity)-(b.price||Infinity));
+    else if (sort === 'price_desc') filtered.sort((a,b) => (b.price||0)-(a.price||0));
+    else if (sort === 'area_asc') filtered.sort((a,b) => (a.area_m2||Infinity)-(b.area_m2||Infinity));
+    else filtered.sort((a,b) => new Date(b.scraped_at)-new Date(a.scraped_at));
+
+    document.getElementById('s-filtered').textContent = filtered.length;
+    page = 1;
+    renderActiveFilters(q, area, source, maxPrice);
+    renderPage();
+  }
+
+  function renderActiveFilters(q, area, source, maxPrice) {
+    const c = document.getElementById('active-filters');
+    c.innerHTML = '';
+    if (q) c.innerHTML += tag(`Szukaj: "${q}"`, () => { document.getElementById('q').value=''; applyFilters(); });
+    if (area) c.innerHTML += tag(area, () => { document.getElementById('f-area').value=''; applyFilters(); });
+    if (source) c.innerHTML += tag(source, () => { document.getElementById('f-source').value=''; applyFilters(); });
+    if (maxPrice < Infinity) c.innerHTML += tag(`Max ${fmt(maxPrice)}`, () => { document.getElementById('f-max-price').value=''; applyFilters(); });
+  }
+  function tag(label, fn) {
+    const id = 'ft_' + Math.random().toString(36).slice(2);
+    setTimeout(() => { const el = document.getElementById(id); if(el) el.onclick=fn; }, 0);
+    return `<span class="filter-tag" id="${id}">${label} <span class="x">✕</span></span>`;
+  }
+
+  // ── RENDER ──
+  function renderPage() {
+    const grid = document.getElementById('grid');
+    const empty = document.getElementById('empty');
+    const start = (page - 1) * PER_PAGE;
+    const slice = filtered.slice(start, start + PER_PAGE);
+
+    if (!filtered.length) {
+      grid.innerHTML = '';
+      empty.style.display = 'block';
+      document.getElementById('pagination').innerHTML = '';
+      return;
+    }
+    empty.style.display = 'none';
+
+    grid.innerHTML = slice.map((l, i) => cardHtml(l, i)).join('');
+    renderPagination();
+  }
+
+  function cardHtml(l, idx) {
+    const img = l.images?.[0];
+    const imgHtml = img
+      ? `<img src="${img}" alt="${esc(l.title)}" loading="lazy" onerror="this.parentElement.innerHTML=noImgHtml()">`
+      : noImgHtml();
+
+    const priceHtml = l.price
+      ? `<div class="card-price">${fmt(l.price)} PLN
+          ${l.area_m2 ? `<span class="per-m2">${fmt(Math.round(l.price/l.area_m2))} zł/m²</span>` : ''}
+         </div>`
+      : `<div class="card-price no-price">Cena na zapytanie</div>`;
+
+    const areaLabel = l.location_area?.includes('Rzeszów') ? '📍 Rzeszów 30km' : '⛰️ Zakopane 20km';
+
+    return `
+      <div class="card" style="animation-delay:${idx*0.04}s">
+        <div class="card-img">
+          ${imgHtml}
+          <span class="source-badge">${esc(l.source)}</span>
+          <span class="area-badge">${areaLabel}</span>
+        </div>
+        <div class="card-body">
+          ${priceHtml}
+          <div class="card-title">${esc(l.title)}</div>
+          <div class="card-meta">
+            ${l.city ? `<span class="meta-item">${iconPin()} ${esc(l.city)}</span>` : ''}
+            ${l.area_m2 ? `<span class="meta-item">${iconArea()} ${l.area_m2.toLocaleString('pl-PL')} m²</span>` : ''}
+          </div>
+          ${l.description ? `<p class="card-desc">${esc(l.description)}</p>` : ''}
+          ${l.url ? `<a href="${l.url}" target="_blank" rel="noopener" class="card-link">Zobacz ofertę ↗</a>` : ''}
+        </div>
+      </div>`;
+  }
+
+  function noImgHtml() {
+    return `<div class="no-img">${iconLand()}<span>Brak zdjęcia</span></div>`;
+  }
+
+  // ── PAGINATION ──
+  function renderPagination() {
+    const total = Math.ceil(filtered.length / PER_PAGE);
+    if (total <= 1) { document.getElementById('pagination').innerHTML = ''; return; }
+    let html = `<button class="page-btn" onclick="goPage(${page-1})" ${page===1?'disabled':''}>‹ Poprzednia</button>`;
+    const range = pageRange(page, total);
+    range.forEach(p => {
+      if (p === '…') html += `<span class="page-btn" style="cursor:default">…</span>`;
+      else html += `<button class="page-btn ${p===page?'active':''}" onclick="goPage(${p})">${p}</button>`;
+    });
+    html += `<button class="page-btn" onclick="goPage(${page+1})" ${page===total?'disabled':''}>Następna ›</button>`;
+    document.getElementById('pagination').innerHTML = html;
+  }
+
+  function goPage(p) {
+    page = p;
+    renderPage();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  function pageRange(cur, total) {
+    if (total <= 7) return Array.from({length:total},(_,i)=>i+1);
+    if (cur <= 4) return [1,2,3,4,5,'…',total];
+    if (cur >= total-3) return [1,'…',total-4,total-3,total-2,total-1,total];
+    return [1,'…',cur-1,cur,cur+1,'…',total];
+  }
+
+  // ── UTILS ──
+  function fmt(n) { return n?.toLocaleString('pl-PL') ?? '—'; }
+  function esc(s) { return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+  function iconPin() { return `<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 1 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>`; }
+  function iconArea() { return `<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/></svg>`; }
+  function iconLand() { return `<svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M2 20l5-8 4 5 3-4 8 7"/></svg>`; }
+
+  // ── DEMO DATA ──
+  function generateDemo() {
+    const rzeszow = ['Rzeszów', 'Boguchwała', 'Głogów Małopolski', 'Tyczyn', 'Świlcza', 'Krasne', 'Lubenia'];
+    const zakopane = ['Zakopane', 'Poronin', 'Biały Dunajec', 'Szaflary', 'Nowy Targ', 'Bukowina Tatrzańska'];
+    const sources = ['Otodom', 'OLX', 'Gratka', 'Nieruchomosci-online', 'Domiporta', 'Adresowo', 'Morizon'];
+    const descs = [
+      'Działka budowlana z pełnym uzbrojeniem, dostęp do drogi asfaltowej. Idealna lokalizacja.',
+      'Teren rolny z możliwością odrolnienia. Piękne widoki, cisza i spokój.',
+      'Działka rekreacyjna w atrakcyjnej cenie. Media w drodze. Polecam!',
+      'Grunt inwestycyjny przy głównej drodze. Duży potencjał komercyjny.',
+      '',
+    ];
+    const res = [];
+    for (let i = 0; i < 60; i++) {
+      const isR = i < 35;
+      const cities = isR ? rzeszow : zakopane;
+      const city = cities[i % cities.length];
+      const area = [500,800,1000,1200,1500,2000,3000,5000][i%8];
+      const pricePerM2 = isR ? 80+Math.random()*120 : 150+Math.random()*300;
+      const price = Math.round(area * pricePerM2 / 1000) * 1000;
+      res.push({
+        id: 'demo_'+i,
+        source: sources[i%4],
+        location_area: isR ? 'Rzeszów i okolice (30 km)' : 'Zakopane i okolice (20 km)',
+        title: `Działka ${['budowlana','rolna','rekreacyjna','inwestycyjna'][i%4]} ${city} ${area} m²`,
+        price, price_currency: 'PLN',
+        area_m2: area,
+        city,
+        description: descs[i%descs.length],
+        images: [],
+        url: '#',
+        scraped_at: new Date(Date.now() - i*3600000).toISOString(),
+      });
+    }
+    return res;
+  }
+
+  loadData();
+</script>
+</body>
+</html>
