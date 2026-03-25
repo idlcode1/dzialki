@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-03-25T08:14:21.570445Z",
-  "total": 252,
+  "updated_at": "2026-03-25T20:05:19.320004Z",
+  "total": 249,
   "by_source": {
-    "Domiporta": 100,
+    "Domiporta": 95,
     "Morizon": 70,
-    "Otodom": 82
+    "Otodom": 84
   },
   "by_location": {
-    "Rzeszów i okolice (30 km)": 99,
-    "Zakopane i okolice (20 km)": 153
+    "Rzeszów i okolice (30 km)": 95,
+    "Zakopane i okolice (20 km)": 154
   },
   "listings": [
     {
@@ -26,7 +26,7 @@
         "https://galeria.domiporta.pl/pictures/small/12/78/bc/bc78b1ad5a2e2ada165ddbb229da981870ab1e2a/dzialka_13_arow_z_warunkami_zabudowy_i_mediami.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-boguchwala-1300m2/156308784",
-      "scraped_at": "2026-03-25T08:06:45.226148"
+      "scraped_at": "2026-03-25T19:57:54.684684"
     },
     {
       "id": "85b41e004b8e",
@@ -43,7 +43,7 @@
         "https://galeria.domiporta.pl/pictures/small/12/1c/99/991c22ea1a9dd9a64ac5ea4a23f906e63c2e9934/dzialka_80_ar_z_warunkami_zabudowy_i_pieknym_widokiem.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-bledowa-tyczynska-8000m2/155787199",
-      "scraped_at": "2026-03-25T08:06:45.229067"
+      "scraped_at": "2026-03-25T19:57:54.687606"
     },
     {
       "id": "3c27bf68387f",
@@ -60,7 +60,7 @@
         "https://galeria.domiporta.pl/pictures/small/19/6d/9f/9f6d90f14fa32e374465d213c72c4e0357070b4d/dzialka_pod_dom_jednorodzinny_w_tyczynie,_media_w_drodze.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-tyczyn-882m2/156363128",
-      "scraped_at": "2026-03-25T08:06:45.230866"
+      "scraped_at": "2026-03-25T19:57:54.689397"
     },
     {
       "id": "4c7fa350cad1",
@@ -77,7 +77,7 @@
         "https://galeria.domiporta.pl/pictures/small/11/73/b7/b773aad8174409f9a18cb5516a3c028b0414e12d/dzialka_1,07_ha_z_widokiem_na_rzeszow_i_mozliwoscia_zabudowy.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-lubenia-10700m2/156363127",
-      "scraped_at": "2026-03-25T08:06:45.231739"
+      "scraped_at": "2026-03-25T19:57:54.690288"
     },
     {
       "id": "fe4a0e3728c5",
@@ -94,7 +94,7 @@
         "https://galeria.domiporta.pl/pictures/small/11/83/00/0083a5c7cf60bba24cb925c0314da1f5f0cbf1b8/dzialka_1,97_ha_z_widokiem_na_rzeszow_i_mozliwoscia_zabudowy.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-lubenia-19800m2/156363125",
-      "scraped_at": "2026-03-25T08:06:45.232635"
+      "scraped_at": "2026-03-25T19:57:54.691184"
     },
     {
       "id": "3fe5c0887918",
@@ -111,7 +111,7 @@
         "https://galeria.domiporta.pl/pictures/small/13/b3/67/67b3307aee2631dce2737708b7adea580280b01d/dzialka_rolna_44_ar_z_dostepem_do_mediow,_blisko_rzeszowa.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-swilcza-mala-strona-4439m2/153403623",
-      "scraped_at": "2026-03-25T08:06:45.235362"
+      "scraped_at": "2026-03-25T19:57:54.693820"
     },
     {
       "id": "fd13c637d8c0",
@@ -128,7 +128,7 @@
         "https://galeria.domiporta.pl/pictures/small/15/d8/d5/d5d8e81fff31d49062c93e790bae8c450f688a53/dzialka_inwestycyjna_13_ha_z_mediami_i_planem.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-boguchwala-13196m2/155743697",
-      "scraped_at": "2026-03-25T08:06:45.237110"
+      "scraped_at": "2026-03-25T19:57:54.695593"
     },
     {
       "id": "f42aa5792f64",
@@ -145,7 +145,41 @@
         "https://galeria.domiporta.pl/pictures/small/18/1c/71/711c86adbcf1863aa6852095b31c140e43ce833a/dzialka_pod_zabudowe_z_mediami,_7500_m²,_tyczyn.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-tyczyn-zagrody-zagrody-7500m2/153593629",
-      "scraped_at": "2026-03-25T08:06:45.248339"
+      "scraped_at": "2026-03-25T19:57:54.707034"
+    },
+    {
+      "id": "e48f9882b426",
+      "source": "Domiporta",
+      "location_area": "Rzeszów i okolice (30 km)",
+      "location_key": "rzeszow",
+      "title": "działka na sprzedaż 2300m2",
+      "price": 230000,
+      "price_currency": "PLN",
+      "area_m2": 2300,
+      "city": "",
+      "description": "",
+      "images": [
+        "https://galeria.domiporta.pl/pictures/small/18/2e/16/162e8900526c8fc26c6b1d53e4d93b5937794a80/dzialka_budowlana_23_arow_z_widokiem_na_las_i_domami.jpg"
+      ],
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-lubenia-2300m2/156419065",
+      "scraped_at": "2026-03-25T19:57:54.707930"
+    },
+    {
+      "id": "1ba752f9b62c",
+      "source": "Domiporta",
+      "location_area": "Rzeszów i okolice (30 km)",
+      "location_key": "rzeszow",
+      "title": "działka na sprzedaż 2241m2",
+      "price": 210000,
+      "price_currency": "PLN",
+      "area_m2": 2241,
+      "city": "",
+      "description": "",
+      "images": [
+        "https://galeria.domiporta.pl/pictures/small/12/44/8e/8e442810b81756b8c0808cc7a8af678134af604f/dzialka_22,41_ara_w_lubeni_z_widokiem_i_mozliwoscia_zabudowy.jpg"
+      ],
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-lubenia-2241m2/156419064",
+      "scraped_at": "2026-03-25T19:57:54.708837"
     },
     {
       "id": "955b1a14a8c2",
@@ -162,7 +196,7 @@
         "https://galeria.domiporta.pl/pictures/small/10/fa/c4/c4fa0364ea9522073cfdd9c1a1b324a7934ac1df/dzialka_widokowa_z_wz,_media,_25_arow,_idealna_pod_dom.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-bledowa-tyczynska-2556m2/156411725",
-      "scraped_at": "2026-03-25T08:06:45.252641"
+      "scraped_at": "2026-03-25T19:57:58.153125"
     },
     {
       "id": "07ddd92dec71",
@@ -179,7 +213,7 @@
         "https://galeria.domiporta.pl/pictures/small/15/f0/cd/cdf0eabcd296c5bfbc375e8cfec7358a52b2bfa3/dzialka_pod_dom_z_garazem_w_boguchwale_–_660_m2.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-boguchwala-660m2/156411049",
-      "scraped_at": "2026-03-25T08:06:45.254390"
+      "scraped_at": "2026-03-25T19:57:58.154945"
     },
     {
       "id": "5169515b9e75",
@@ -196,7 +230,7 @@
         "https://galeria.domiporta.pl/pictures/small/11/c5/28/28c51c8b8c52265bacf71708ea33e663d7941a44/dzialka_11_100_m²_z_panoramicznym_widokiem_w_lubeni.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-lubenia-11100m2/156325040",
-      "scraped_at": "2026-03-25T08:06:45.255269"
+      "scraped_at": "2026-03-25T19:57:58.155853"
     },
     {
       "id": "046ab48b3566",
@@ -213,7 +247,7 @@
         "https://galeria.domiporta.pl/pictures/small/14/51/ff/ff51d4e7ece0f183e200a8908c984bf6a73d8a13/dzialka_pod_zabudowe_w_swilczy_30,58_ara,_spokoj_i_szybki_dojazd.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-swilcza-3058m2/156406070",
-      "scraped_at": "2026-03-25T08:06:50.484268"
+      "scraped_at": "2026-03-25T19:57:58.158524"
     },
     {
       "id": "ede16f1cbb4a",
@@ -230,7 +264,7 @@
         "https://galeria.domiporta.pl/pictures/small/14/42/b5/b542487f64bf7dd50f59fdbb914ae2e646a5f8bb/dzialka_1765_m²_z_warunkami_zabudowy_i_dostepem_do_drogi.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-tyczyn-1765m2/155949633",
-      "scraped_at": "2026-03-25T08:06:50.485165"
+      "scraped_at": "2026-03-25T19:57:58.159421"
     },
     {
       "id": "33f795e8afe7",
@@ -247,7 +281,7 @@
         "https://galeria.domiporta.pl/pictures/small/18/af/9d/9daf84ce39dd5ac3901cf5e657304bd5bb9b3085/dzialka_budowlana_z_mediami,_szybki_dojazd_do_rzeszowa.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-swilcza-500m2/156403106",
-      "scraped_at": "2026-03-25T08:06:50.488682"
+      "scraped_at": "2026-03-25T19:57:58.163034"
     },
     {
       "id": "33718ceca7cb",
@@ -264,7 +298,7 @@
         "https://galeria.domiporta.pl/pictures/small/14/19/8a/8a194fc4c53ac9427c29bad22f5e62f07cbd9c9d/dzialka_28_arow_z_wz,_media,_blisko_rzeszowa.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-lubenia-2800m2/155509771",
-      "scraped_at": "2026-03-25T08:06:50.493122"
+      "scraped_at": "2026-03-25T19:57:58.167425"
     },
     {
       "id": "88776f05edc4",
@@ -281,7 +315,7 @@
         "https://galeria.domiporta.pl/pictures/small/12/fb/c2/c2fbb80db45d89b3de7845123bf50d55eee60e75/dzialka_2900_m²_z_potencjalem_pod_inwestycje_lub_dom.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-krasne-2900m2/156396267",
-      "scraped_at": "2026-03-25T08:06:50.495748"
+      "scraped_at": "2026-03-25T19:57:58.170063"
     },
     {
       "id": "c7fcc079d1e2",
@@ -298,7 +332,7 @@
         "https://galeria.domiporta.pl/pictures/small/18/18/54/54188ff2202011c7904d29e70e963c339b3b3cf1/dzialka_16_799_m²_w_jasionce_–_inwestycyjna_okazja!.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-trzebownisko-jasionka-16799m2/156395934",
-      "scraped_at": "2026-03-25T08:06:50.496643"
+      "scraped_at": "2026-03-25T19:57:58.170959"
     },
     {
       "id": "eb2b71ba9001",
@@ -315,7 +349,7 @@
         "https://galeria.domiporta.pl/pictures/small/13/71/d4/d471cc81c4ea657e9272f2ac738448fb14aa08e4/dzialka_przemyslowo-budowlana_2856_m2_z_mediami.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-boguchwala-2856m2/156391678",
-      "scraped_at": "2026-03-25T08:06:50.498399"
+      "scraped_at": "2026-03-25T19:57:58.172742"
     },
     {
       "id": "709d3074cdc5",
@@ -332,7 +366,7 @@
         "https://galeria.domiporta.pl/pictures/small/12/8e/c7/c78e2b0263aca1f658153b03ce43f395b0356669/dzialka_pod_zabudowe_w_rzeszowie,_6,36_ar,_media.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-rzeszow-636m2/156391664",
-      "scraped_at": "2026-03-25T08:06:50.499274"
+      "scraped_at": "2026-03-25T19:57:58.173624"
     },
     {
       "id": "0abb573a0807",
@@ -349,7 +383,7 @@
         "https://galeria.domiporta.pl/pictures/small/13/af/08/08afc56c85490904a542231b75b7c9fc2b8ec01b/urokliwa_dzialka_budowlana_6447_m²_z_lasem_i_dojazdem_asfaltowym.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-dynow-gw-6447m2/156391599",
-      "scraped_at": "2026-03-25T08:06:50.502743"
+      "scraped_at": "2026-03-25T19:57:58.177162"
     },
     {
       "id": "f06ed3f15b8d",
@@ -366,7 +400,7 @@
         "https://galeria.domiporta.pl/pictures/small/19/9e/6f/6f9e941d19e28de6d2ea3c93bc4b8becb69befb3/dzialka_1300_m2_z_dobrym_dojazdem_i_zielonym_otoczeniem.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-krasne-1300m2/156391589",
-      "scraped_at": "2026-03-25T08:06:50.503630"
+      "scraped_at": "2026-03-25T19:57:58.178055"
     },
     {
       "id": "65dbb908c6ba",
@@ -383,7 +417,7 @@
         "https://galeria.domiporta.pl/pictures/small/14/87/56/5687dc78621470655184c0badbecb0dfa1910da5/dzialka_rolna_2015_m²_z_pradem,_cisza_i_zielen.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-krasne-2015m2/156391565",
-      "scraped_at": "2026-03-25T08:06:50.505388"
+      "scraped_at": "2026-03-25T19:58:01.407915"
     },
     {
       "id": "dce8d0625ecc",
@@ -400,7 +434,7 @@
         "https://galeria.domiporta.pl/pictures/small/10/19/7d/7d190ce2337faa66f50e81ba78a136c292941b70/dzialka_rolno-rekreacyjna_z_widokiem_na_pogorze_dynowskie.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-dynow-2692m2/156391557",
-      "scraped_at": "2026-03-25T08:06:50.506268"
+      "scraped_at": "2026-03-25T19:58:01.408837"
     },
     {
       "id": "fe31bcc6417c",
@@ -417,7 +451,7 @@
         "https://galeria.domiporta.pl/pictures/small/15/13/23/2313eb9b5de25bec431ed7a59675a280023633bc/dzialka_rolno-rekreacyjna_z_widokiem_na_pogorze_dynowskie.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-dynow-bartkowka-2248m2/156391556",
-      "scraped_at": "2026-03-25T08:06:50.507160"
+      "scraped_at": "2026-03-25T19:58:01.409731"
     },
     {
       "id": "50c27043d57c",
@@ -434,7 +468,7 @@
         "https://galeria.domiporta.pl/pictures/small/15/83/f4/f483ed01ee5dce9185c229d9ce866d46457ddbdf/dzialka_rolna_z_widokiem_na_pogorze_dynowskie.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-dynow-1171m2/156391555",
-      "scraped_at": "2026-03-25T08:06:50.508043"
+      "scraped_at": "2026-03-25T19:58:01.410661"
     },
     {
       "id": "0bdcbe0d6d6b",
@@ -451,7 +485,7 @@
         "https://galeria.domiporta.pl/pictures/small/15/e4/46/46e45f829d30071e90730cb6ffd41bede7a35fb2/dzialka_rolno-rekreacyjna_z_widokiem_na_pogorze_dynowskie.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-dynow-bartkowka-1049m2/156391553",
-      "scraped_at": "2026-03-25T08:06:50.508926"
+      "scraped_at": "2026-03-25T19:58:01.411552"
     },
     {
       "id": "61a47cd6f59a",
@@ -468,7 +502,7 @@
         "https://galeria.domiporta.pl/pictures/small/18/5e/e5/e55e8cf987d9f8427b60239c9a26282b57b6decc/dzialka_pod_zabudowe_w_jasionce,_7_200_m2,_media_w_granicy.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-trzebownisko-7200m2/156391530",
-      "scraped_at": "2026-03-25T08:06:50.510659"
+      "scraped_at": "2026-03-25T19:58:01.413324"
     },
     {
       "id": "bbea856c24f6",
@@ -485,7 +519,7 @@
         "https://galeria.domiporta.pl/pictures/small/14/12/6e/6e12448ecc1c5be277961061cc2e3dac36d09aac/dzialka_budowlana_20,4_ar_w_spokojnej_okolicy_z_mediami.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-trzebownisko-2040m2/156391528",
-      "scraped_at": "2026-03-25T08:06:50.511538"
+      "scraped_at": "2026-03-25T19:58:01.414202"
     },
     {
       "id": "9aceca21b291",
@@ -502,7 +536,7 @@
         "https://galeria.domiporta.pl/pictures/small/11/ca/fb/fbcaa30ef25616bf5829467f8807337e15944a21/dzialka_pod_blizniaki_z_wz,_szybki_dojazd_do_rzeszowa.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-trzebownisko-19m2/156391518",
-      "scraped_at": "2026-03-25T08:06:50.512423"
+      "scraped_at": "2026-03-25T19:58:01.415191"
     },
     {
       "id": "90077ac50e27",
@@ -519,7 +553,7 @@
         "https://galeria.domiporta.pl/pictures/small/14/db/0c/0cdbd280fc902b069c9c60619d48e010ba2b3729/dzialka_inwestycyjna_33_ar_z_mpzp,_media,_pod_zabudowe.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-boguchwala-suszyckich-3300m2/156391516",
-      "scraped_at": "2026-03-25T08:06:50.513300"
+      "scraped_at": "2026-03-25T19:58:01.416067"
     },
     {
       "id": "78e9d492dd9d",
@@ -536,7 +570,7 @@
         "https://galeria.domiporta.pl/pictures/small/11/e8/9c/9ce8130228ca105979e7e93a8d568a8d4732b62f/dzialki_pod_zabudowe_w_dynowie_od_125_tys_zl!.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-dynow-igioza-1000m2/156388715",
-      "scraped_at": "2026-03-25T08:06:55.132907"
+      "scraped_at": "2026-03-25T19:58:01.417860"
     },
     {
       "id": "061e65739e3e",
@@ -553,7 +587,7 @@
         "https://galeria.domiporta.pl/pictures/small/19/60/d1/d1609cc1c3259260c4ada318be2949398b8fa52d/dzialka_28_arow_z_pozwoleniem_na_budowe,_blisko_rzeszowa.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-krasne-1398m2/156373019",
-      "scraped_at": "2026-03-25T08:06:55.147950"
+      "scraped_at": "2026-03-25T19:58:01.432627"
     },
     {
       "id": "ddcda8969fdd",
@@ -570,7 +604,7 @@
         "https://galeria.domiporta.pl/pictures/small/18/54/ef/ef548ab7b50bb320c093cd1a5332912330716ef7/dzialki_z_panoramicznym_widokiem_na_wzgorza_i_lasy.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-dynow-ks-jozefa-ozoga-1958m2/156194634",
-      "scraped_at": "2026-03-25T08:06:55.154938"
+      "scraped_at": "2026-03-25T19:58:05.512754"
     },
     {
       "id": "39a849339a3e",
@@ -587,7 +621,7 @@
         "https://galeria.domiporta.pl/pictures/small/19/20/32/322092746d0db26f058bea40033525592ff7a08a/uzbrojona_dzialka_pod_dom_w_dynowie,_1697_m².jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-dynow-1697m2/155923874",
-      "scraped_at": "2026-03-25T08:06:55.157563"
+      "scraped_at": "2026-03-25T19:58:05.515470"
     },
     {
       "id": "896abef14c36",
@@ -604,7 +638,7 @@
         "https://galeria.domiporta.pl/pictures/small/18/e5/ff/ffe58c1a774bdb1cf16dcd6e0f315716e43237db/widokowe_dzialki_budowlane_w_lubeni_za_230_tys_zl.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-lubenia-1900m2/155727350",
-      "scraped_at": "2026-03-25T08:06:55.158437"
+      "scraped_at": "2026-03-25T19:58:05.516376"
     },
     {
       "id": "968e862a61f8",
@@ -621,7 +655,7 @@
         "https://galeria.domiporta.pl/pictures/small/11/26/53/53261f5f72a1379cc035ebf648f19acb3042c2fe/dzialka_846_m²_pod_dom_lub_rekreacje,_las,_media.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-lubenia-846m2/155713879",
-      "scraped_at": "2026-03-25T08:06:55.159326"
+      "scraped_at": "2026-03-25T19:58:05.517268"
     },
     {
       "id": "e74a0144a9ac",
@@ -638,7 +672,7 @@
         "https://galeria.domiporta.pl/pictures/small/11/0b/f2/f20ba9a0b7d214dd533771c09286b305951a5705/dzialka_inwestycyjna_75_arow_z_mediami,_planem_i_dostepem.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-boguchwala-7552m2/156352187",
-      "scraped_at": "2026-03-25T08:07:00.673682"
+      "scraped_at": "2026-03-25T19:58:05.524268"
     },
     {
       "id": "d3c1662b05ac",
@@ -655,7 +689,7 @@
         "https://galeria.domiporta.pl/pictures/small/11/cc/8f/8fcc1ddb8112e7987bf200318186dc266d69ef27/dzialka_inwestycyjna_2,55_ha_z_mpzp,_media,_blisko_s19.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-boguchwala-25530m2/156352186",
-      "scraped_at": "2026-03-25T08:07:00.674579"
+      "scraped_at": "2026-03-25T19:58:05.525157"
     },
     {
       "id": "3ed7a800205b",
@@ -672,7 +706,7 @@
         "https://galeria.domiporta.pl/pictures/small/16/c0/d9/d9c06fabfd45a10f20fe3ec7f3fd37f9871bd4e2/dzialka_budowlana_z_wz,_33x30m,_media,_krasne.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-krasne-1000m2/156338426",
-      "scraped_at": "2026-03-25T08:07:00.680838"
+      "scraped_at": "2026-03-25T19:58:05.531336"
     },
     {
       "id": "0d6e972b7ab5",
@@ -689,24 +723,7 @@
         "https://galeria.domiporta.pl/pictures/small/13/dd/df/dfdd31df128f77fa243e4c15dda0b89c56c7047d/dzialka_900_m²_z_warunkami_zabudowy,_cicha_okolica.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-swilcza-trzciana-900m2/156208760",
-      "scraped_at": "2026-03-25T08:07:00.684327"
-    },
-    {
-      "id": "1dc6b9796f8c",
-      "source": "Domiporta",
-      "location_area": "Rzeszów i okolice (30 km)",
-      "location_key": "rzeszow",
-      "title": "działka na sprzedaż 1506m2",
-      "price": 166000,
-      "price_currency": "PLN",
-      "area_m2": 1506,
-      "city": "",
-      "description": "",
-      "images": [
-        "https://galeria.domiporta.pl/pictures/small/14/04/43/4304d63419a3c9103a09fde5c7d18c464bd560c5/atrakcyjne_dzialki_budowlane_w_lubeni_z_pelnymi_mediami.jpg"
-      ],
-      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-lubenia-1506m2/156209426",
-      "scraped_at": "2026-03-25T08:07:00.686992"
+      "scraped_at": "2026-03-25T19:58:05.534823"
     },
     {
       "id": "f35ddb313e16",
@@ -723,7 +740,7 @@
         "https://galeria.domiporta.pl/pictures/small/10/e7/6a/6ae70f996db301a9f5b9d3a8060ddf733465f7f2/dzialka_pod_dom_wolnostojacy_w_krasnem,_1176_m².jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-krasne-krasne-1176m2/156317851",
-      "scraped_at": "2026-03-25T08:07:00.691363"
+      "scraped_at": "2026-03-25T19:58:05.540934"
     },
     {
       "id": "c19a25e74130",
@@ -740,7 +757,7 @@
         "https://galeria.domiporta.pl/pictures/small/12/39/79/7939b2ce8bbb233d753bd93ba545a6d87f3874a3/dzialka_1251_m²_z_warunkami_zabudowy_w_krasnem.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-krasne-krasne-1251m2/156311583",
-      "scraped_at": "2026-03-25T08:07:00.693160"
+      "scraped_at": "2026-03-25T19:58:05.542687"
     },
     {
       "id": "bc8e3dc6537a",
@@ -757,7 +774,7 @@
         "https://galeria.domiporta.pl/pictures/small/19/0c/80/800c9e24efd4a96fb34180e38600a960fe8807bf/dzialka_rekreacyjna_26,98_ar_z_pradem,_tyczyn.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-tyczyn-2698m2/156303020",
-      "scraped_at": "2026-03-25T08:07:00.694936"
+      "scraped_at": "2026-03-25T19:58:10.253233"
     },
     {
       "id": "61b15de0d0c6",
@@ -774,7 +791,7 @@
         "https://galeria.domiporta.pl/pictures/small/16/65/e3/e365fab997c4159ae22bc9c57016fa1da0ed8f33/dzialka_36,58_ara_z_woda_i_kanalizacja,_krasne.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-krasne-3658m2/156230055",
-      "scraped_at": "2026-03-25T08:07:04.652958"
+      "scraped_at": "2026-03-25T19:58:10.275410"
     },
     {
       "id": "f45a8975679c",
@@ -791,7 +808,7 @@
         "https://galeria.domiporta.pl/pictures/small/12/2f/f0/f02f29bb2c771e718245dc3dd491ee9c6321b32d/atrakcyjna_dzialka_pod_zabudowe_jednorodzinna_w_tyczynie.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-tyczyn-490m2/156224857",
-      "scraped_at": "2026-03-25T08:07:04.653842"
+      "scraped_at": "2026-03-25T19:58:10.276308"
     },
     {
       "id": "45ed251f383f",
@@ -808,7 +825,7 @@
         "https://galeria.domiporta.pl/pictures/small/15/78/ec/ec78ef5d33e514b4ce4472128c4493b3d2bac225/dzialka_budowlana_800_m²_w_centrum_krasnego_z_mediami.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-krasne-800m2/156205750",
-      "scraped_at": "2026-03-25T08:07:04.661730"
+      "scraped_at": "2026-03-25T19:58:10.284191"
     },
     {
       "id": "519719d72782",
@@ -825,7 +842,7 @@
         "https://galeria.domiporta.pl/pictures/small/13/27/7f/7f273345b6df0c220afb43e84d8534e847f0cf36/dzialka_85a_z_mediami,_szybki_dojazd_do_rzeszowa.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-swilcza-8500m2/156096081",
-      "scraped_at": "2026-03-25T08:07:09.077395"
+      "scraped_at": "2026-03-25T19:58:15.451759"
     },
     {
       "id": "8022f69b60f1",
@@ -842,7 +859,7 @@
         "https://galeria.domiporta.pl/pictures/small/11/a7/84/84a7155f27476bb52db0a93c2691c4e40b8f3ef8/dzialka_pod_domy_jednorodzinne,_media,_widokowa.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-tyczyn-mickiewicza-2908m2/155953921",
-      "scraped_at": "2026-03-25T08:07:09.081008"
+      "scraped_at": "2026-03-25T19:58:15.455388"
     },
     {
       "id": "69d8081e227f",
@@ -859,7 +876,7 @@
         "https://galeria.domiporta.pl/pictures/small/16/98/57/5798fa43e2d3d9cd014a82f00636b92518b1bd3e/dzialka_przemyslowa_6_ha_z_mpz,_blisko_s19,_media.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-boguchwala-eugeniusza-kwiatkowskiego-6093m2/155910180",
-      "scraped_at": "2026-03-25T08:07:09.087010"
+      "scraped_at": "2026-03-25T19:58:15.461695"
     },
     {
       "id": "c50804f2d22c",
@@ -876,7 +893,7 @@
         "https://galeria.domiporta.pl/pictures/small/11/1a/49/491aa001b228fde8a4dcc65fcdc887eccabf63c4/dzialka_26_arow_z_mediami,_las_i_pola,_do_zabudowy.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-tyczyn-tyczyn-lany-2600m2/155897151",
-      "scraped_at": "2026-03-25T08:07:09.088719"
+      "scraped_at": "2026-03-25T19:58:15.463511"
     },
     {
       "id": "b1d1169259c0",
@@ -893,7 +910,7 @@
         "https://galeria.domiporta.pl/pictures/small/15/97/9b/9b97e521127acd8ec0cde00e480f53bc684fd1d6/urokliwa_dzialka_15_arow_pod_dom_w_lubeni,_media,_widok.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-lubenia-1532m2/155884389",
-      "scraped_at": "2026-03-25T08:07:09.090451"
+      "scraped_at": "2026-03-25T19:58:15.465336"
     },
     {
       "id": "cf7eaf959818",
@@ -910,7 +927,7 @@
         "https://galeria.domiporta.pl/pictures/small/12/63/9c/9c632e5b3778c03097e957daceb32d38d0263754/dzialka_pod_zabudowe_szeregowa_z_pozwoleniem_na_42_mieszkania.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-boguchwala-5261m2/155860869",
-      "scraped_at": "2026-03-25T08:07:09.093869"
+      "scraped_at": "2026-03-25T19:58:15.468886"
     },
     {
       "id": "6cccee4789bf",
@@ -927,7 +944,7 @@
         "https://galeria.domiporta.pl/pictures/small/19/4c/99/994c91a431e7c0e538da5ec36a91ba9029f22df4/dzialki_pod_zabudowe_w_krasnem,_3x7,6_ara,_media.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-krasne-750m2/155831897",
-      "scraped_at": "2026-03-25T08:07:09.101541"
+      "scraped_at": "2026-03-25T19:58:19.865545"
     },
     {
       "id": "197f1a21ad09",
@@ -944,7 +961,7 @@
         "https://galeria.domiporta.pl/pictures/small/11/e0/fd/fde0152b3d9f81225ad0d26766a71b37cd9ae5d4/dzialka_50a_z_budynkami,_rozbudowa,_media,_blisko_rzeszowa.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-bledowa-tyczynska-5000m2/155661979",
-      "scraped_at": "2026-03-25T08:07:12.393350"
+      "scraped_at": "2026-03-25T19:58:19.882592"
     },
     {
       "id": "1796549744aa",
@@ -961,7 +978,7 @@
         "https://galeria.domiporta.pl/pictures/small/15/33/6e/6e335e3d26671a03d511170031fdf753ce4d1859/dzialka_6,5_ara_z_domem,_media,_rozbudowa,_krasne.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-krasne-6500m2/155661978",
-      "scraped_at": "2026-03-25T08:07:12.394232"
+      "scraped_at": "2026-03-25T19:58:19.883500"
     },
     {
       "id": "663ccdcc63d1",
@@ -978,7 +995,7 @@
         "https://galeria.domiporta.pl/pictures/small/15/ef/fb/fbef555bf490beca9c5dbda61fe8db0d8516023c/dzialka_przemyslowa_2,45ha_w_strefie_ekonomicznej.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-boguchwala-eugeniusza-kwiatkowskiego-24576m2/155521409",
-      "scraped_at": "2026-03-25T08:07:12.396828"
+      "scraped_at": "2026-03-25T19:58:19.886212"
     },
     {
       "id": "8a57a067a7db",
@@ -995,7 +1012,7 @@
         "https://galeria.domiporta.pl/pictures/small/13/6c/6a/6a6c329607813fa207f13d4a9f2af0759412f363/dzialka_inwestycyjna_7_300_m²_z_potencjalem_rozwoju.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-swilcza-7300m2/155354860",
-      "scraped_at": "2026-03-25T08:07:12.403879"
+      "scraped_at": "2026-03-25T19:58:19.893556"
     },
     {
       "id": "28cb73d526bf",
@@ -1012,95 +1029,10 @@
         "https://galeria.domiporta.pl/pictures/small/15/36/11/1136ea78492d27e567b59a9322755378f300cb2c/dzialka_budowlana_2700_m2_z_mediami,_spokojna_okolica.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-swilcza-2700m2/155354708",
-      "scraped_at": "2026-03-25T08:07:12.404751"
+      "scraped_at": "2026-03-25T19:58:19.894472"
     },
     {
-      "id": "0190d3a2c385",
-      "source": "Domiporta",
-      "location_area": "Rzeszów i okolice (30 km)",
-      "location_key": "rzeszow",
-      "title": "działka na sprzedaż 2065m2",
-      "price": 454300,
-      "price_currency": "PLN",
-      "area_m2": 2065,
-      "city": "",
-      "description": "",
-      "images": [
-        "https://galeria.domiporta.pl/pictures/small/11/f9/72/72f9193fd56dde7d5fbd617ab716748de73b9d85/dzialka_pod_dom_w_tyczynie,_20,65_ar,_media,_warunki_zabudowy.jpg"
-      ],
-      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-tyczyn-kazimierza-wielkiego-2065m2/155287105",
-      "scraped_at": "2026-03-25T08:07:12.407339"
-    },
-    {
-      "id": "32e82138bf32",
-      "source": "Domiporta",
-      "location_area": "Rzeszów i okolice (30 km)",
-      "location_key": "rzeszow",
-      "title": "działka na sprzedaż 1825m2",
-      "price": 292000,
-      "price_currency": "PLN",
-      "area_m2": 1825,
-      "city": "",
-      "description": "",
-      "images": [
-        "https://galeria.domiporta.pl/pictures/small/15/d7/38/38d75d023e49a129d22d4f221b15b7053dfd6831/dzialka_budowlana_w_tyczynie,_1825_m²,_media,_warunki_zabudowy.jpg"
-      ],
-      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-tyczyn-zagrody-1825m2/155284979",
-      "scraped_at": "2026-03-25T08:07:12.408203"
-    },
-    {
-      "id": "d6eaf5ec56f2",
-      "source": "Domiporta",
-      "location_area": "Rzeszów i okolice (30 km)",
-      "location_key": "rzeszow",
-      "title": "działka na sprzedaż 6427m2",
-      "price": 1478210,
-      "price_currency": "PLN",
-      "area_m2": 6427,
-      "city": "",
-      "description": "",
-      "images": [
-        "https://galeria.domiporta.pl/pictures/small/17/7c/cc/cc7c733535e88674a01beddec3e13b2b84fd2349/dzialka_pod_zabudowe_6_domow,_64_ar,_media,_do_negocjacji.jpg"
-      ],
-      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-tyczyn-potoki-6427m2/155239405",
-      "scraped_at": "2026-03-25T08:07:12.409921"
-    },
-    {
-      "id": "4d70ff1400b5",
-      "source": "Domiporta",
-      "location_area": "Rzeszów i okolice (30 km)",
-      "location_key": "rzeszow",
-      "title": "działka na sprzedaż 5515m2",
-      "price": 1268450,
-      "price_currency": "PLN",
-      "area_m2": 5515,
-      "city": "",
-      "description": "",
-      "images": [
-        "https://galeria.domiporta.pl/pictures/small/16/04/04/04046f4e693fe9887a27570b52000692f15ccce1/dzialka_55_ar_z_mediami,_dojazd_asfaltowy,_tyczyn.jpg"
-      ],
-      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-tyczyn-parkowa-5515m2/155235606",
-      "scraped_at": "2026-03-25T08:07:12.410767"
-    },
-    {
-      "id": "2d05d3e6a7b5",
-      "source": "Domiporta",
-      "location_area": "Rzeszów i okolice (30 km)",
-      "location_key": "rzeszow",
-      "title": "działka na sprzedaż 1000m2",
-      "price": 499000,
-      "price_currency": "PLN",
-      "area_m2": 1000,
-      "city": "",
-      "description": "",
-      "images": [
-        "https://galeria.domiporta.pl/pictures/small/17/a1/6a/6aa172e0aa7a7537b2bd1b71e80d240c28393e47/dzialka_z_domem_i_budynkami_w_centrum_swilczy,_10_arow.jpg"
-      ],
-      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-swilcza-1000m2/155165180",
-      "scraped_at": "2026-03-25T08:07:12.413348"
-    },
-    {
-      "id": "426817a09386",
+      "id": "2f8646cea73c",
       "source": "Morizon",
       "location_area": "Rzeszów i okolice (30 km)",
       "location_key": "rzeszow",
@@ -1113,8 +1045,8 @@
       "images": [
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
-      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-rzeszow-owocowa-6506m2-mzn2047059032",
-      "scraped_at": "2026-03-25T08:09:13.350300"
+      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-podkarpackie-rzeszow-owocowa-6506m2-mzn2047059032",
+      "scraped_at": "2026-03-25T20:00:21.590784"
     },
     {
       "id": "12925444a522",
@@ -1125,16 +1057,67 @@
       "price": 7350000,
       "price_currency": "PLN",
       "area_m2": 4000,
-      "city": "Wołyńska, Pobitno, Rzeszów, podkarpackie",
+      "city": "Wołyńska, Pobitno, Rzeszów",
       "description": "",
       "images": [
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
       "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-rzeszow-pobitno-wolynska-4000m2-mzn2047053025",
-      "scraped_at": "2026-03-25T08:09:13.352847"
+      "scraped_at": "2026-03-25T20:00:21.593353"
     },
     {
-      "id": "111371e464c5",
+      "id": "1e61c826affa",
+      "source": "Morizon",
+      "location_area": "Rzeszów i okolice (30 km)",
+      "location_key": "rzeszow",
+      "title": "Działka Rzeszów, centrum, Kr. Augusta 3,32a",
+      "price": 332000,
+      "price_currency": "PLN",
+      "area_m2": null,
+      "city": "Króla Stanisława Augusta, Baranówka, Rzeszów",
+      "description": "",
+      "images": [
+        "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
+      ],
+      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-rzeszow-baranowka-stanislawa-augusta-332m2-mzn2047067765",
+      "scraped_at": "2026-03-25T20:00:21.595468"
+    },
+    {
+      "id": "90301ea519b6",
+      "source": "Morizon",
+      "location_area": "Rzeszów i okolice (30 km)",
+      "location_key": "rzeszow",
+      "title": "Sprzedam działkę w Rzeszowie",
+      "price": 5800000,
+      "price_currency": "PLN",
+      "area_m2": null,
+      "city": "Leśna, Rzeszów, podkarpackie",
+      "description": "",
+      "images": [
+        "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
+      ],
+      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-podkarpackie-rzeszow-lesna-18088m2-mzn2046810170",
+      "scraped_at": "2026-03-25T20:00:21.597585"
+    },
+    {
+      "id": "fbebc964c1ac",
+      "source": "Morizon",
+      "location_area": "Rzeszów i okolice (30 km)",
+      "location_key": "rzeszow",
+      "title": "Działka 10,97ar w zachodniej części Rzeszowa z WZ",
+      "price": 283000,
+      "price_currency": "PLN",
+      "area_m2": null,
+      "city": "Porucznika Henryka Pisarka, Przybyszówka, Rzeszów",
+      "description": "",
+      "images": [
+        "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
+      ],
+      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-rzeszow-przybyszowka-por-henryka-pisarka-1097m2-mzn2046491209",
+      "scraped_at": "2026-03-25T20:00:21.599831"
+    },
+    {
+      "id": "cf786dad2766",
       "source": "Morizon",
       "location_area": "Rzeszów i okolice (30 km)",
       "location_key": "rzeszow",
@@ -1142,16 +1125,16 @@
       "price": 699000,
       "price_currency": "PLN",
       "area_m2": null,
-      "city": "Świętego Rocha, Słocina, Rzeszów, podkarpackie",
+      "city": "Świętego Rocha, Słocina, Rzeszów",
       "description": "",
       "images": [
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
-      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-rzeszow-slocina-swietego-rocha-4902m2-mzn2047056309",
-      "scraped_at": "2026-03-25T08:09:13.354899"
+      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-rzeszow-slocina-sw-rocha-4902m2-mzn2047056309",
+      "scraped_at": "2026-03-25T20:00:21.601918"
     },
     {
-      "id": "3d9d56fe6a58",
+      "id": "fcdf9deee155",
       "source": "Morizon",
       "location_area": "Rzeszów i okolice (30 km)",
       "location_key": "rzeszow",
@@ -1164,8 +1147,8 @@
       "images": [
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
-      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-rzeszow-slocinska-915m2-mzn2046043684",
-      "scraped_at": "2026-03-25T08:09:13.356957"
+      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-podkarpackie-rzeszow-slocinska-915m2-mzn2046043684",
+      "scraped_at": "2026-03-25T20:00:21.604056"
     },
     {
       "id": "fd33131434db",
@@ -1176,50 +1159,16 @@
       "price": 455000,
       "price_currency": "PLN",
       "area_m2": null,
-      "city": "Zwięczyca, Rzeszów, podkarpackie",
+      "city": "Zwięczyca, Rzeszów",
       "description": "",
       "images": [
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
       "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-rzeszow-zwieczyca-1307m2-mzn2046027806",
-      "scraped_at": "2026-03-25T08:09:13.359007"
+      "scraped_at": "2026-03-25T20:00:21.606184"
     },
     {
-      "id": "d181d9583026",
-      "source": "Morizon",
-      "location_area": "Rzeszów i okolice (30 km)",
-      "location_key": "rzeszow",
-      "title": "Działka 11,49 ar z WZ, mediami ul. Rodziny Kąkolów",
-      "price": 344000,
-      "price_currency": "PLN",
-      "area_m2": null,
-      "city": "Rodziny Kąkolów, Słocina, Rzeszów, podkarpackie",
-      "description": "",
-      "images": [
-        "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
-      ],
-      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-rzeszow-slocina-rodziny-kakolow-1149m2-mzn2046040780",
-      "scraped_at": "2026-03-25T08:09:13.361066"
-    },
-    {
-      "id": "aa55eb3ff95e",
-      "source": "Morizon",
-      "location_area": "Rzeszów i okolice (30 km)",
-      "location_key": "rzeszow",
-      "title": "Działka 15,08 ar z WZ – Rzeszów ul. Kukuczki",
-      "price": 575000,
-      "price_currency": "PLN",
-      "area_m2": null,
-      "city": "Jerzego Kukuczki, Rzeszów, podkarpackie",
-      "description": "",
-      "images": [
-        "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
-      ],
-      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-rzeszow-jerzego-kukuczki-1508m2-mzn2046023962",
-      "scraped_at": "2026-03-25T08:09:13.363146"
-    },
-    {
-      "id": "5739bf4ff462",
+      "id": "cb4a5c20c5f3",
       "source": "Morizon",
       "location_area": "Rzeszów i okolice (30 km)",
       "location_key": "rzeszow",
@@ -1232,11 +1181,28 @@
       "images": [
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
-      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-rzeszow-1680m2-mzn2046970212",
-      "scraped_at": "2026-03-25T08:09:13.365236"
+      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-podkarpackie-rzeszow-1680m2-mzn2046970212",
+      "scraped_at": "2026-03-25T20:00:21.608247"
     },
     {
-      "id": "7378a1ef49a7",
+      "id": "d181d9583026",
+      "source": "Morizon",
+      "location_area": "Rzeszów i okolice (30 km)",
+      "location_key": "rzeszow",
+      "title": "Działka 11,49 ar z WZ, mediami ul. Rodziny Kąkolów",
+      "price": 344000,
+      "price_currency": "PLN",
+      "area_m2": null,
+      "city": "Rodziny Kąkolów, Słocina, Rzeszów",
+      "description": "",
+      "images": [
+        "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
+      ],
+      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-rzeszow-slocina-rodziny-kakolow-1149m2-mzn2046040780",
+      "scraped_at": "2026-03-25T20:00:21.610331"
+    },
+    {
+      "id": "c9982f852fd3",
       "source": "Morizon",
       "location_area": "Rzeszów i okolice (30 km)",
       "location_key": "rzeszow",
@@ -1249,11 +1215,11 @@
       "images": [
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
-      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-rzeszow-budziwojska-6200m2-mzn2046970179",
-      "scraped_at": "2026-03-25T08:09:13.367336"
+      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-podkarpackie-rzeszow-budziwojska-6200m2-mzn2046970179",
+      "scraped_at": "2026-03-25T20:00:21.612419"
     },
     {
-      "id": "1484fd7136f6",
+      "id": "5016d5f8b4b1",
       "source": "Morizon",
       "location_area": "Rzeszów i okolice (30 km)",
       "location_key": "rzeszow",
@@ -1261,16 +1227,33 @@
       "price": 450000,
       "price_currency": "PLN",
       "area_m2": null,
-      "city": "Rzeszów, podkarpackie",
+      "city": "ks. bpa Antoniego Betańskiego, Rzeszów, podkarpackie",
       "description": "",
       "images": [
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
-      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-rzeszow-ks-bpa-antoniego-betanskiego-1130m2-mzn2047061196",
-      "scraped_at": "2026-03-25T08:09:13.369403"
+      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-podkarpackie-rzeszow-ks-bpa-antoniego-betanskiego-1130m2-mzn2047061196",
+      "scraped_at": "2026-03-25T20:00:21.614498"
     },
     {
-      "id": "862b8d1aeb9f",
+      "id": "30595686cb66",
+      "source": "Morizon",
+      "location_area": "Rzeszów i okolice (30 km)",
+      "location_key": "rzeszow",
+      "title": "Działka 15,08 ar z WZ – Rzeszów ul. Kukuczki",
+      "price": 575000,
+      "price_currency": "PLN",
+      "area_m2": null,
+      "city": "Jerzego Kukuczki, Rzeszów, podkarpackie",
+      "description": "",
+      "images": [
+        "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
+      ],
+      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-podkarpackie-rzeszow-jerzego-kukuczki-1508m2-mzn2046023962",
+      "scraped_at": "2026-03-25T20:00:21.616585"
+    },
+    {
+      "id": "01964435f6a4",
       "source": "Morizon",
       "location_area": "Rzeszów i okolice (30 km)",
       "location_key": "rzeszow",
@@ -1283,11 +1266,11 @@
       "images": [
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
-      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-rzeszow-jesionowa-3600m2-mzn2046041438",
-      "scraped_at": "2026-03-25T08:09:13.371464"
+      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-podkarpackie-rzeszow-jesionowa-3600m2-mzn2046041438",
+      "scraped_at": "2026-03-25T20:00:21.618723"
     },
     {
-      "id": "89e5ca094f7d",
+      "id": "0e5abea46ba7",
       "source": "Morizon",
       "location_area": "Rzeszów i okolice (30 km)",
       "location_key": "rzeszow",
@@ -1300,8 +1283,8 @@
       "images": [
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
-      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-rzeszow-swietego-marcina-2065m2-mzn2046041653",
-      "scraped_at": "2026-03-25T08:09:13.373515"
+      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-podkarpackie-rzeszow-sw-marcina-2065m2-mzn2046041653",
+      "scraped_at": "2026-03-25T20:00:21.620814"
     },
     {
       "id": "fd4a4fa5e59c",
@@ -1312,33 +1295,16 @@
       "price": 949000,
       "price_currency": "PLN",
       "area_m2": 2690,
-      "city": "Budziwój, Rzeszów, podkarpackie",
+      "city": "Budziwój, Rzeszów",
       "description": "",
       "images": [
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
       "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-rzeszow-budziwoj-2690m2-mzn2046410706",
-      "scraped_at": "2026-03-25T08:09:13.375629"
+      "scraped_at": "2026-03-25T20:00:21.622892"
     },
     {
-      "id": "45f5a8497138",
-      "source": "Morizon",
-      "location_area": "Rzeszów i okolice (30 km)",
-      "location_key": "rzeszow",
-      "title": "Działka widokowa z PNB! 13 arów! Rzeszów",
-      "price": 550620,
-      "price_currency": "PLN",
-      "area_m2": null,
-      "city": "Aleja Generała Władysława Sikorskiego, Rzeszów, podkarpackie",
-      "description": "",
-      "images": [
-        "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
-      ],
-      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-rzeszow-aleja-generala-wladyslawa-sikorskiego-1311m2-mzn2046046837",
-      "scraped_at": "2026-03-25T08:09:13.377685"
-    },
-    {
-      "id": "152df49ddfbe",
+      "id": "1fa41c47db71",
       "source": "Morizon",
       "location_area": "Rzeszów i okolice (30 km)",
       "location_key": "rzeszow",
@@ -1351,28 +1317,28 @@
       "images": [
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
-      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-rzeszow-debicka-1600m2-mzn2046041651",
-      "scraped_at": "2026-03-25T08:09:13.379732"
+      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-podkarpackie-rzeszow-debicka-1600m2-mzn2046041651",
+      "scraped_at": "2026-03-25T20:00:21.624965"
     },
     {
-      "id": "2f81eda33611",
+      "id": "bb90825cc11f",
       "source": "Morizon",
       "location_area": "Rzeszów i okolice (30 km)",
       "location_key": "rzeszow",
-      "title": "Cisza, natura i miasto w jednym",
-      "price": 695000,
+      "title": "Działka widokowa z PNB! 13 arów! Rzeszów",
+      "price": 550620,
       "price_currency": "PLN",
       "area_m2": null,
-      "city": "Rzeszów, podkarpackie",
+      "city": "Aleja Generała Władysława Sikorskiego, Rzeszów, podkarpackie",
       "description": "",
       "images": [
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
-      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-rzeszow-14900m2-mzn2046020212",
-      "scraped_at": "2026-03-25T08:09:13.381778"
+      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-podkarpackie-rzeszow-gen-wladyslawa-sikorskiego-1311m2-mzn2046046837",
+      "scraped_at": "2026-03-25T20:00:21.627045"
     },
     {
-      "id": "c0ddec77d64c",
+      "id": "33dfe23c296d",
       "source": "Morizon",
       "location_area": "Rzeszów i okolice (30 km)",
       "location_key": "rzeszow",
@@ -1385,8 +1351,25 @@
       "images": [
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
-      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-rzeszow-jerzego-kukuczki-1453m2-mzn2046020883",
-      "scraped_at": "2026-03-25T08:09:13.383844"
+      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-podkarpackie-rzeszow-jerzego-kukuczki-1453m2-mzn2046020883",
+      "scraped_at": "2026-03-25T20:00:21.629156"
+    },
+    {
+      "id": "c9bb0e0b2329",
+      "source": "Morizon",
+      "location_area": "Rzeszów i okolice (30 km)",
+      "location_key": "rzeszow",
+      "title": "Cisza, natura i miasto w jednym",
+      "price": 695000,
+      "price_currency": "PLN",
+      "area_m2": null,
+      "city": "Rzeszów, podkarpackie",
+      "description": "",
+      "images": [
+        "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
+      ],
+      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-podkarpackie-rzeszow-14900m2-mzn2046020212",
+      "scraped_at": "2026-03-25T20:00:21.631253"
     },
     {
       "id": "92656515b9ab",
@@ -1397,84 +1380,16 @@
       "price": 1715000,
       "price_currency": "PLN",
       "area_m2": 4819,
-      "city": "Zwięczyca, Rzeszów, podkarpackie",
+      "city": "Zwięczyca, Rzeszów",
       "description": "",
       "images": [
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
       "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-rzeszow-zwieczyca-4819m2-mzn2046927040",
-      "scraped_at": "2026-03-25T08:09:13.385891"
+      "scraped_at": "2026-03-25T20:00:21.633368"
     },
     {
-      "id": "f37afbac5fc6",
-      "source": "Morizon",
-      "location_area": "Rzeszów i okolice (30 km)",
-      "location_key": "rzeszow",
-      "title": "DZIAŁKA INWESTYCYJNA - UL. ZACISZNA! DRABINIANKA!",
-      "price": 1499999,
-      "price_currency": "PLN",
-      "area_m2": null,
-      "city": "Zaciszna, Rzeszów, podkarpackie",
-      "description": "",
-      "images": [
-        "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
-      ],
-      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-rzeszow-zaciszna-2730m2-mzn2047068214",
-      "scraped_at": "2026-03-25T08:09:13.387971"
-    },
-    {
-      "id": "626e5aafce8e",
-      "source": "Morizon",
-      "location_area": "Rzeszów i okolice (30 km)",
-      "location_key": "rzeszow",
-      "title": "Atrakcyjne miejsce z dużą działką",
-      "price": 2500000,
-      "price_currency": "PLN",
-      "area_m2": null,
-      "city": "Staroniwska, Staroniwa, Rzeszów, podkarpackie",
-      "description": "",
-      "images": [
-        "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
-      ],
-      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-rzeszow-staroniwa-staroniwska-2480m2-mzn2047066778",
-      "scraped_at": "2026-03-25T08:09:13.390026"
-    },
-    {
-      "id": "d1adaeed3afc",
-      "source": "Morizon",
-      "location_area": "Rzeszów i okolice (30 km)",
-      "location_key": "rzeszow",
-      "title": "Inwestycja - działka z WZ - ul. Załęska",
-      "price": 2799000,
-      "price_currency": "PLN",
-      "area_m2": null,
-      "city": "Pobitno, Rzeszów, podkarpackie",
-      "description": "",
-      "images": [
-        "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
-      ],
-      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-rzeszow-pobitno-11000m2-mzn2046033551",
-      "scraped_at": "2026-03-25T08:09:13.392087"
-    },
-    {
-      "id": "683f7c28ac63",
-      "source": "Morizon",
-      "location_area": "Rzeszów i okolice (30 km)",
-      "location_key": "rzeszow",
-      "title": "Działka 15,10 ar w Rzeszowie, Matysówka",
-      "price": 585000,
-      "price_currency": "PLN",
-      "area_m2": null,
-      "city": "Jerzego Kukuczki, Rzeszów, podkarpackie",
-      "description": "",
-      "images": [
-        "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
-      ],
-      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-rzeszow-jerzego-kukuczki-1510m2-mzn2046020858",
-      "scraped_at": "2026-03-25T08:09:13.394131"
-    },
-    {
-      "id": "8d9d1b9b11fb",
+      "id": "ca2d76ac5187",
       "source": "Morizon",
       "location_area": "Rzeszów i okolice (30 km)",
       "location_key": "rzeszow",
@@ -1487,11 +1402,96 @@
       "images": [
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
-      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-rzeszow-jerzego-kukuczki-1502m2-mzn2046020857",
-      "scraped_at": "2026-03-25T08:09:13.396171"
+      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-podkarpackie-rzeszow-jerzego-kukuczki-1502m2-mzn2046020857",
+      "scraped_at": "2026-03-25T20:00:21.635471"
     },
     {
-      "id": "b593ff3b2c21",
+      "id": "9000f9613e17",
+      "source": "Morizon",
+      "location_area": "Rzeszów i okolice (30 km)",
+      "location_key": "rzeszow",
+      "title": "Działka 15,10 ar w Rzeszowie, Matysówka",
+      "price": 585000,
+      "price_currency": "PLN",
+      "area_m2": null,
+      "city": "Jerzego Kukuczki, Rzeszów, podkarpackie",
+      "description": "",
+      "images": [
+        "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
+      ],
+      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-podkarpackie-rzeszow-jerzego-kukuczki-1510m2-mzn2046020858",
+      "scraped_at": "2026-03-25T20:00:21.637565"
+    },
+    {
+      "id": "1dbf7a31f7be",
+      "source": "Morizon",
+      "location_area": "Rzeszów i okolice (30 km)",
+      "location_key": "rzeszow",
+      "title": "DZIAŁKA INWESTYCYJNA - UL. ZACISZNA! DRABINIANKA",
+      "price": 1499999,
+      "price_currency": "PLN",
+      "area_m2": null,
+      "city": "Zaciszna, Rzeszów, podkarpackie",
+      "description": "",
+      "images": [
+        "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
+      ],
+      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-podkarpackie-rzeszow-zaciszna-2730m2-mzn2047068214",
+      "scraped_at": "2026-03-25T20:00:21.639670"
+    },
+    {
+      "id": "7f6a65444fcc",
+      "source": "Morizon",
+      "location_area": "Rzeszów i okolice (30 km)",
+      "location_key": "rzeszow",
+      "title": "Atrakcyjne miejsce z dużą działką",
+      "price": 2500000,
+      "price_currency": "PLN",
+      "area_m2": null,
+      "city": "Staroniwska, Staroniwa, Rzeszów",
+      "description": "",
+      "images": [
+        "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
+      ],
+      "url": "https://www.morizon.pl/oferta/sprzedaz-grunt_handlowo_uslugowy-rzeszow-staroniwa-staroniwska-140m2-mzn2047066778",
+      "scraped_at": "2026-03-25T20:00:21.641784"
+    },
+    {
+      "id": "d1adaeed3afc",
+      "source": "Morizon",
+      "location_area": "Rzeszów i okolice (30 km)",
+      "location_key": "rzeszow",
+      "title": "Inwestycja - działka z WZ - ul. Załęska",
+      "price": 2799000,
+      "price_currency": "PLN",
+      "area_m2": null,
+      "city": "Pobitno, Rzeszów",
+      "description": "",
+      "images": [
+        "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
+      ],
+      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-rzeszow-pobitno-11000m2-mzn2046033551",
+      "scraped_at": "2026-03-25T20:00:21.643853"
+    },
+    {
+      "id": "e2032cbf7d06",
+      "source": "Morizon",
+      "location_area": "Rzeszów i okolice (30 km)",
+      "location_key": "rzeszow",
+      "title": "Działka z WZ | ZALESIE |4a| Cicha okolica",
+      "price": 209000,
+      "price_currency": "PLN",
+      "area_m2": null,
+      "city": "Jana Kiepury, Zalesie, Rzeszów",
+      "description": "",
+      "images": [
+        "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
+      ],
+      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-rzeszow-zalesie-jana-kiepury-400m2-mzn2046830537",
+      "scraped_at": "2026-03-25T20:00:21.645921"
+    },
+    {
+      "id": "ff580b032bde",
       "source": "Morizon",
       "location_area": "Rzeszów i okolice (30 km)",
       "location_key": "rzeszow",
@@ -1504,32 +1504,15 @@
       "images": [
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
-      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-rzeszow-zwiadowcow-700m2-mzn2046970106",
-      "scraped_at": "2026-03-25T08:09:13.398226"
+      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-podkarpackie-rzeszow-zwiadowcow-700m2-mzn2046970106",
+      "scraped_at": "2026-03-25T20:00:21.648007"
     },
     {
-      "id": "e2032cbf7d06",
+      "id": "cbc1f3fb87a5",
       "source": "Morizon",
       "location_area": "Rzeszów i okolice (30 km)",
       "location_key": "rzeszow",
-      "title": "Działka z WZ | ZALESIE |4a| Cicha okolica",
-      "price": 209000,
-      "price_currency": "PLN",
-      "area_m2": null,
-      "city": "Jana Kiepury, Zalesie, Rzeszów, podkarpackie",
-      "description": "",
-      "images": [
-        "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
-      ],
-      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-rzeszow-zalesie-jana-kiepury-400m2-mzn2046830537",
-      "scraped_at": "2026-03-25T08:09:13.400279"
-    },
-    {
-      "id": "28e19207fa3f",
-      "source": "Morizon",
-      "location_area": "Rzeszów i okolice (30 km)",
-      "location_key": "rzeszow",
-      "title": "BUDZIWÓJ 28A! IDEALNA POD BUDOWĘ DOMU!",
+      "title": "BUDZIWÓJ 28A! IDEALNA POD BUDOWĘ DOMU",
       "price": 756000,
       "price_currency": "PLN",
       "area_m2": null,
@@ -1538,8 +1521,8 @@
       "images": [
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
-      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-rzeszow-porabki-2800m2-mzn2047061745",
-      "scraped_at": "2026-03-25T08:09:13.402334"
+      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-podkarpackie-rzeszow-porabki-2800m2-mzn2047061745",
+      "scraped_at": "2026-03-25T20:00:21.650089"
     },
     {
       "id": "7d522c7fe02b",
@@ -1550,81 +1533,30 @@
       "price": 1052250,
       "price_currency": "PLN",
       "area_m2": null,
-      "city": "Przybyszówka, Rzeszów, podkarpackie",
+      "city": "Przybyszówka, Rzeszów",
       "description": "",
       "images": [
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
       "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-rzeszow-przybyszowka-4209m2-mzn2046951406",
-      "scraped_at": "2026-03-25T08:09:13.404384"
+      "scraped_at": "2026-03-25T20:00:21.652187"
     },
     {
-      "id": "e3f900d1ba52",
+      "id": "1ef22009233d",
       "source": "Morizon",
       "location_area": "Rzeszów i okolice (30 km)",
       "location_key": "rzeszow",
-      "title": "Działki z potencjałem inwestycyjnym – Słocina",
-      "price": 33900077,
+      "title": "Rzeszów działka widokowa - Białogórska",
+      "price": 290000,
       "price_currency": "PLN",
       "area_m2": null,
-      "city": "Słocina, Rzeszów, podkarpackie",
+      "city": "Białogórska, Biała, Rzeszów",
       "description": "",
       "images": [
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
-      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-rzeszow-slocina-4376m2-mzn2046795128",
-      "scraped_at": "2026-03-25T08:09:13.405593"
-    },
-    {
-      "id": "9182ad9054f4",
-      "source": "Morizon",
-      "location_area": "Rzeszów i okolice (30 km)",
-      "location_key": "rzeszow",
-      "title": "Działka 10,97ar w zachodniej części Rzeszowa z WZ",
-      "price": 283000,
-      "price_currency": "PLN",
-      "area_m2": null,
-      "city": "Porucznika Henryka Pisarka, Przybyszówka, Rzeszów, podkarpackie",
-      "description": "",
-      "images": [
-        "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
-      ],
-      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-rzeszow-przybyszowka-porucznika-henryka-pisarka-1097m2-mzn2046491209",
-      "scraped_at": "2026-03-25T08:09:13.407752"
-    },
-    {
-      "id": "058620320f54",
-      "source": "Morizon",
-      "location_area": "Rzeszów i okolice (30 km)",
-      "location_key": "rzeszow",
-      "title": "Działka 9 ar–teren zielony, Zwięczyca II, Rzeszów",
-      "price": 199000,
-      "price_currency": "PLN",
-      "area_m2": null,
-      "city": "Zwięczyca, Rzeszów, podkarpackie",
-      "description": "",
-      "images": [
-        "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
-      ],
-      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-rzeszow-zwieczyca-900m2-mzn2046257745",
-      "scraped_at": "2026-03-25T08:09:13.409822"
-    },
-    {
-      "id": "666cffa52d77",
-      "source": "Morizon",
-      "location_area": "Rzeszów i okolice (30 km)",
-      "location_key": "rzeszow",
-      "title": "Wszystkie media| WZ pod 9 domów | 98ar",
-      "price": 2999000,
-      "price_currency": "PLN",
-      "area_m2": null,
-      "city": "Herbowa, Budziwój, Rzeszów, podkarpackie",
-      "description": "",
-      "images": [
-        "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
-      ],
-      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-rzeszow-budziwoj-herbowa-9800m2-mzn2045886523",
-      "scraped_at": "2026-03-25T08:09:13.411997"
+      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-rzeszow-biala-bialogorska-1326m2-mzn2046804099",
+      "scraped_at": "2026-03-25T20:00:21.654283"
     },
     {
       "id": "6af34f63ee5b",
@@ -1635,33 +1567,50 @@
       "price": 1049000,
       "price_currency": "PLN",
       "area_m2": null,
-      "city": "Henryka Wieniawskiego, Zalesie, Rzeszów, podkarpackie",
+      "city": "Henryka Wieniawskiego, Zalesie, Rzeszów",
       "description": "",
       "images": [
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
       "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-rzeszow-zalesie-henryka-wieniawskiego-2332m2-mzn2044711515",
-      "scraped_at": "2026-03-25T08:09:13.414160"
+      "scraped_at": "2026-03-25T20:00:21.656478"
     },
     {
-      "id": "a94f6984513b",
+      "id": "666cffa52d77",
       "source": "Morizon",
       "location_area": "Rzeszów i okolice (30 km)",
       "location_key": "rzeszow",
-      "title": "Ostatnia w okolicy | Twoje miejsce |",
-      "price": 699999,
+      "title": "Wszystkie media| WZ pod 9 domów | 98ar",
+      "price": 2999000,
       "price_currency": "PLN",
       "area_m2": null,
-      "city": "Nowe Miasto, Rzeszów, podkarpackie",
+      "city": "Herbowa, Budziwój, Rzeszów",
       "description": "",
       "images": [
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
-      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-rzeszow-nowe-miasto-700m2-mzn2046038740",
-      "scraped_at": "2026-03-25T08:09:13.416222"
+      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-rzeszow-budziwoj-herbowa-9800m2-mzn2045886523",
+      "scraped_at": "2026-03-25T20:00:21.658680"
     },
     {
-      "id": "bd6d993b6ab8",
+      "id": "058620320f54",
+      "source": "Morizon",
+      "location_area": "Rzeszów i okolice (30 km)",
+      "location_key": "rzeszow",
+      "title": "Działka 9 ar–teren zielony, Zwięczyca II, Rzeszów",
+      "price": 199000,
+      "price_currency": "PLN",
+      "area_m2": null,
+      "city": "Zwięczyca, Rzeszów",
+      "description": "",
+      "images": [
+        "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
+      ],
+      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-rzeszow-zwieczyca-900m2-mzn2046257745",
+      "scraped_at": "2026-03-25T20:00:21.660765"
+    },
+    {
+      "id": "51e01876635f",
       "source": "Morizon",
       "location_area": "Rzeszów i okolice (30 km)",
       "location_key": "rzeszow",
@@ -1674,139 +1623,46 @@
       "images": [
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
-      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-rzeszow-debicka-550m2-mzn2046901847",
-      "scraped_at": "2026-03-25T08:09:13.418280"
+      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-podkarpackie-rzeszow-debicka-550m2-mzn2046901847",
+      "scraped_at": "2026-03-25T20:00:21.662845"
     },
     {
-      "id": "ce39538c0663",
-      "source": "Morizon",
-      "location_area": "Rzeszów i okolice (30 km)",
-      "location_key": "rzeszow",
-      "title": "Działka na sprzedaż 11a - Rzeszów, ul. Dębicka",
-      "price": 430000,
-      "price_currency": "PLN",
-      "area_m2": null,
-      "city": "Dębicka, Rzeszów, podkarpackie",
-      "description": "",
-      "images": [
-        "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
-      ],
-      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-rzeszow-debicka-1100m2-mzn2046901846",
-      "scraped_at": "2026-03-25T08:09:13.420327"
-    },
-    {
-      "id": "9032f0db8cfb",
+      "id": "f9d626e9caa3",
       "source": "Otodom",
       "location_area": "Zakopane i okolice (20 km)",
       "location_key": "zakopane",
-      "title": "Działka  z prawomocnym PNB 785 PUM 4km do centrum Zakopanego",
-      "price": 2200000,
+      "title": "Twój kawałek natury z widokiem na Tatry",
+      "price": 200000,
       "price_currency": "PLN",
-      "area_m2": 2000,
+      "area_m2": 6563,
       "city": "",
-      "description": "Do sprzedania działka  z prawomocnym pozwoleniem na budowę pięciu budynków mieszkalnych o powierzchni 157 m2 każdy. Istnieje możliwość wybudowania budynków do stanu surowego , developerskiego lub pod ...",
+      "description": "KORDIAN OCHOCKI  Agent prowadzący  533 963 299     Oferuję na sprzedaż działkę nieruchomość gruntową, składającą się z kilku działek rolnych przylegających do siebie o łącznej powierzchni 6 563 m² w m...",
       "images": [
-        "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImpveTF5aWFlMW5oMy1BUEwiLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.72edkDvWHAeLyZ4JQHBY3jD4NkF_oyb-qffCSnOxFiw/image;s=1280x1024;q=80",
-        "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Inp2ZnJsY3d6czB4eDEtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.NZ_lmmNkE0XzFls1ro2hf80-WdlL6ZZ48y81BisjTkM/image;s=1280x1024;q=80",
-        "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Inp3d3dib2VtbDlneDItQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.cjwVnof1GOde2uZjkowLgYC2M1xDR1Ugku1CUkAJ3Zs/image;s=1280x1024;q=80"
+        "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InhyMjYxODN2bzlxNzMtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.PBnK_0KEDFWnV61wcxRX6cmozM3z2ppoKIjc-ndk_Zc/image;s=1280x1024;q=80",
+        "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InVnZXF2cXNtNTlnMDItQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.ECeEceR1e9kRtb2HWvnsz565M_lDGjWrhPDq60ohxxg/image;s=1280x1024;q=80",
+        "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImJxb20ydWo5Y28yazMtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.YX3N2zx8P1nnm2QKxAIsq6oUGgBI7BnHQgkxWX-eFOU/image;s=1280x1024;q=80"
       ],
-      "url": "https://www.otodom.pl/pl/oferta/dzialka-z-prawomocnym-pnb-785-pum-4km-do-centrum-zakopanego-ID4whkb",
-      "scraped_at": "2026-03-25T08:10:06.963706"
+      "url": "https://www.otodom.pl/pl/oferta/twoj-kawalek-natury-z-widokiem-na-tatry-ID4AFlt",
+      "scraped_at": "2026-03-25T20:01:13.460925"
     },
     {
-      "id": "193d6e1cd579",
+      "id": "e5d949e57c99",
       "source": "Otodom",
       "location_area": "Zakopane i okolice (20 km)",
       "location_key": "zakopane",
-      "title": "Tatry w zasięgu wzroku!!!",
-      "price": 889000,
+      "title": "Spokojna działka z pięknym widokiem na Tatry",
+      "price": 130000,
       "price_currency": "PLN",
-      "area_m2": 2991,
+      "area_m2": 4354,
       "city": "",
-      "description": "Na sprzedaż piękna działka o łącznej powierzchni 2991 m². Położona w malowniczej miejscowości Gliczarów Dolny. Działka posiada decyzję o zatwierdzeniu projektu budowlanego wraz z pozwoleniem na budowę...",
+      "description": "KORDIAN OCHOCKI  Agent prowadzący  533 963 299Na sprzedaż nieruchomość gruntowa składająca się z dwóch przyległych do siebie działek o łącznej powierzchni 4354 m². Działki znajdują się w Dzianiuszu w ...",
       "images": [
-        "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Inl0bjE3YnU1NTRnNi1BUEwiLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.X0eWecDuome1fMiJHs0ncZ-1tI9wvA7oNdosz2Tu1x4/image;s=1280x1024;q=80",
-        "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImI0Zmh5a2VmNTUxYzItQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.8v_CVr609mwXNTtZUWdWVZ77HQavTfJ2oUXcLDkqXXs/image;s=1280x1024;q=80",
-        "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Ijk2NnhndzQxZ3B5NC1BUEwiLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.C0Q25vgDZLqBHAQJgDYfaERHNg9aJkt61G8y9QvQwjQ/image;s=1280x1024;q=80"
+        "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InV3MXk1dDh6NzYyZDMtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.id4petgPsmizlKWi5BcqLUlOTHS1ryqfy5KYz-_m1ZQ/image;s=1280x1024;q=80",
+        "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InhnajcwNHhuYWY2Zy1BUEwiLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.N5R9teuurQD6PZk3KZibl3kt1cqq5M4PwPwZh99j4sM/image;s=1280x1024;q=80",
+        "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjU2M2NhMWNpYTdxdzEtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.36ofY7iiix4xfrMD7_DPIAtneLXmKpo-fyxkpRax6XM/image;s=1280x1024;q=80"
       ],
-      "url": "https://www.otodom.pl/pl/oferta/tatry-w-zasiegu-wzroku-ID4AE3n",
-      "scraped_at": "2026-03-25T08:10:06.963740"
-    },
-    {
-      "id": "a5576bc9149a",
-      "source": "Otodom",
-      "location_area": "Zakopane i okolice (20 km)",
-      "location_key": "zakopane",
-      "title": "Działka Budowlana Sierockie – Widok Na Tatry",
-      "price": 259000,
-      "price_currency": "PLN",
-      "area_m2": 432,
-      "city": "",
-      "description": "DZIAŁKA BUDOWLANA SIEROCKIE  WIDOK NA TATRY | WARUNKI ZABUDOWY | GMINA BIAŁY DUNAJECNa sprzedaż atrakcyjna działka budowlana w miejscowości Sierockie (gmina Biały Dunajec, powiat tatrzański, woj. mało...",
-      "images": [
-        "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjJocGdicnp6a3VqczEtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.cXS46UvN8ViWhETP39uAdmej12bnVwnxpl-qq3RtODw/image;s=1280x1024;q=80",
-        "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjdndGVhaDhkeDJycTEtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.gCXdNP9opWX300S4Dn4S1aO5WP3ZhtN78yBq129jsYQ/image;s=1280x1024;q=80",
-        "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InptemdxN2dzd3h2bzMtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.zbQ3DPkHwUKEti7qPMIbjpan9rxlaxOArGvIMSM9O-8/image;s=1280x1024;q=80"
-      ],
-      "url": "https://www.otodom.pl/pl/oferta/dzialka-budowlana-sierockie-widok-na-tatry-ID4ADUf",
-      "scraped_at": "2026-03-25T08:10:06.963758"
-    },
-    {
-      "id": "85073473b4d9",
-      "source": "Otodom",
-      "location_area": "Zakopane i okolice (20 km)",
-      "location_key": "zakopane",
-      "title": "Działka Budowlana Sierockie – Widok Na Tatry",
-      "price": 350000,
-      "price_currency": "PLN",
-      "area_m2": 573,
-      "city": "",
-      "description": " DZIAŁKA BUDOWLANA SIEROCKIE  WIDOK NA TATRY | WARUNKI ZABUDOWY | BIAŁY DUNAJECNa sprzedaż atrakcyjna działka budowlana w miejscowości Sierockie, gmina Biały Dunajec (powiat tatrzański, woj. małopols...",
-      "images": [
-        "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjJpdW9ocHM1YnphMi1BUEwiLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.hv1KWcV_Dhmyxzq_FqRXH60apZkVbkzjV1PaS7x12ms/image;s=1280x1024;q=80",
-        "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InFkeHoxODF5aGx5YjItQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.xdi-mKQZdnxecE4NZsVccpLtv_aVKbGHPs1FQuq2iRA/image;s=1280x1024;q=80",
-        "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImtyOXJrbnNmYmNsYTMtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.iTJ1SbAd3eLqGTBA840gcWHSSSK4oNkDlmVNompfT9Q/image;s=1280x1024;q=80"
-      ],
-      "url": "https://www.otodom.pl/pl/oferta/dzialka-budowlana-sierockie-widok-na-tatry-ID4ADUe",
-      "scraped_at": "2026-03-25T08:10:06.963766"
-    },
-    {
-      "id": "a2ea44b6df7a",
-      "source": "Otodom",
-      "location_area": "Zakopane i okolice (20 km)",
-      "location_key": "zakopane",
-      "title": "Działka przy dolinie Strążyskiej w Zakopanem",
-      "price": 1850000,
-      "price_currency": "PLN",
-      "area_m2": 1189,
-      "city": "",
-      "description": "Działka Rolno-budowlana przy dolinie Strążyskiej w Zakopanem.Biuro Nieruchomości Michalik z siedzibą w Zakopanem przy ul. Nowotarska 19 ma przyjemność zaprezentować Państwu unikatową działkę rolno-bud...",
-      "images": [
-        "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Imt1M3V4cXVyM2pncjEtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.r8LZROXikV42U7b4RdxGev6okcEOn8YXZwdKUN531pg/image;s=1280x1024;q=80",
-        "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InVzZDQ0aXlmODh4MDMtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.uiD-K28APe2FrPu3MjK8N7kJ9fGBh6Iy9uppzEfBajw/image;s=1280x1024;q=80",
-        "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Iml5MzZ6bG1vZnFvdzItQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.qMRZ0QTPcbl0vhdJOV_t7y14entGRxzvq9VP9oZL8qo/image;s=1280x1024;q=80"
-      ],
-      "url": "https://www.otodom.pl/pl/oferta/dzialka-przy-dolinie-strazyskiej-w-zakopanem-ID4y0MC",
-      "scraped_at": "2026-03-25T08:10:06.963771"
-    },
-    {
-      "id": "f0c97c0cbd6a",
-      "source": "Otodom",
-      "location_area": "Zakopane i okolice (20 km)",
-      "location_key": "zakopane",
-      "title": "WIDOKOWA, PODHALE–ZĄB |PANORAMA TATR | POTENCJAŁ POD DOM LUB PENSJONAT",
-      "price": 2200000,
-      "price_currency": "PLN",
-      "area_m2": 2213,
-      "city": "",
-      "description": "WYJĄTKOWA DZIAŁKA WIDOKOWA NA PODHALU – ZĄB | PANORAMA TATR | POTENCJAŁ POD DOM LUB PENSJONATNa sprzedaż wyjątkowa działka budowlana położona w jednej z najbardziej prestiżowych i malowniczych lokaliz...",
-      "images": [
-        "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Imd1dmlwcmJ2cnBtMzEtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.O38yoBRAiZ1IwuPONy-7aXTmRnzn0yRLcuA1NxNiLgM/image;s=1280x1024;q=80",
-        "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Im5mdnI5dDRpdnhnZjEtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.Gz8Yd7BfL34nMm4c7p71CjlB7J7VdrXdO0srcQP6OHE/image;s=1280x1024;q=80",
-        "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImUyMXNwaTU2Z255bzEtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.jjLz3mZ9tr8eHLO5Fl_zsA7LZQv3I81d2_XjOc_6pXs/image;s=1280x1024;q=80"
-      ],
-      "url": "https://www.otodom.pl/pl/oferta/widokowa-podhalezab-panorama-tatr-potencjal-pod-dom-lub-pensjonat-ID4AsXL",
-      "scraped_at": "2026-03-25T08:10:06.963788"
+      "url": "https://www.otodom.pl/pl/oferta/spokojna-dzialka-z-pieknym-widokiem-na-tatry-ID4AFlq",
+      "scraped_at": "2026-03-25T20:01:13.460946"
     },
     {
       "id": "32a7f93c1e9f",
@@ -1825,7 +1681,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InpsdWpsOG5qOXdmOTEtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.xdlVGfK2f2YBYUC5-6n8ZmXregG9M5j9WUs04IJA1SE/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/dzialka-budowlana-pod-domki-koscielisko-ID4yRbx",
-      "scraped_at": "2026-03-25T08:10:06.963816"
+      "scraped_at": "2026-03-25T20:01:13.460955"
     },
     {
       "id": "cd9a48a8e8cc",
@@ -1844,7 +1700,121 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImhhZjc4a2VhdDc1Yy1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.YDJFUncGC7vxY90GlxgBtDmuYCnLEQO-m5YDnU6_tA0/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/dzialka-tuz-na-wjezdzie-do-bialki-tatrzanskiej-ID4Aiqj",
-      "scraped_at": "2026-03-25T08:10:06.963826"
+      "scraped_at": "2026-03-25T20:01:13.460972"
+    },
+    {
+      "id": "9032f0db8cfb",
+      "source": "Otodom",
+      "location_area": "Zakopane i okolice (20 km)",
+      "location_key": "zakopane",
+      "title": "Działka  z prawomocnym PNB 785 PUM 4km do centrum Zakopanego",
+      "price": 2200000,
+      "price_currency": "PLN",
+      "area_m2": 2000,
+      "city": "",
+      "description": "Do sprzedania działka  z prawomocnym pozwoleniem na budowę pięciu budynków mieszkalnych o powierzchni 157 m2 każdy. Istnieje możliwość wybudowania budynków do stanu surowego , developerskiego lub pod ...",
+      "images": [
+        "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImpveTF5aWFlMW5oMy1BUEwiLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.72edkDvWHAeLyZ4JQHBY3jD4NkF_oyb-qffCSnOxFiw/image;s=1280x1024;q=80",
+        "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Inp2ZnJsY3d6czB4eDEtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.NZ_lmmNkE0XzFls1ro2hf80-WdlL6ZZ48y81BisjTkM/image;s=1280x1024;q=80",
+        "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Inp3d3dib2VtbDlneDItQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.cjwVnof1GOde2uZjkowLgYC2M1xDR1Ugku1CUkAJ3Zs/image;s=1280x1024;q=80"
+      ],
+      "url": "https://www.otodom.pl/pl/oferta/dzialka-z-prawomocnym-pnb-785-pum-4km-do-centrum-zakopanego-ID4whkb",
+      "scraped_at": "2026-03-25T20:01:13.460978"
+    },
+    {
+      "id": "193d6e1cd579",
+      "source": "Otodom",
+      "location_area": "Zakopane i okolice (20 km)",
+      "location_key": "zakopane",
+      "title": "Tatry w zasięgu wzroku!!!",
+      "price": 889000,
+      "price_currency": "PLN",
+      "area_m2": 2991,
+      "city": "",
+      "description": "Na sprzedaż piękna działka o łącznej powierzchni 2991 m². Położona w malowniczej miejscowości Gliczarów Dolny. Działka posiada decyzję o zatwierdzeniu projektu budowlanego wraz z pozwoleniem na budowę...",
+      "images": [
+        "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Inl0bjE3YnU1NTRnNi1BUEwiLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.X0eWecDuome1fMiJHs0ncZ-1tI9wvA7oNdosz2Tu1x4/image;s=1280x1024;q=80",
+        "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImI0Zmh5a2VmNTUxYzItQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.8v_CVr609mwXNTtZUWdWVZ77HQavTfJ2oUXcLDkqXXs/image;s=1280x1024;q=80",
+        "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Ijk2NnhndzQxZ3B5NC1BUEwiLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.C0Q25vgDZLqBHAQJgDYfaERHNg9aJkt61G8y9QvQwjQ/image;s=1280x1024;q=80"
+      ],
+      "url": "https://www.otodom.pl/pl/oferta/tatry-w-zasiegu-wzroku-ID4AE3n",
+      "scraped_at": "2026-03-25T20:01:13.460992"
+    },
+    {
+      "id": "a5576bc9149a",
+      "source": "Otodom",
+      "location_area": "Zakopane i okolice (20 km)",
+      "location_key": "zakopane",
+      "title": "Działka Budowlana Sierockie – Widok Na Tatry",
+      "price": 259000,
+      "price_currency": "PLN",
+      "area_m2": 432,
+      "city": "",
+      "description": "DZIAŁKA BUDOWLANA SIEROCKIE  WIDOK NA TATRY | WARUNKI ZABUDOWY | GMINA BIAŁY DUNAJECNa sprzedaż atrakcyjna działka budowlana w miejscowości Sierockie (gmina Biały Dunajec, powiat tatrzański, woj. mało...",
+      "images": [
+        "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjJocGdicnp6a3VqczEtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.cXS46UvN8ViWhETP39uAdmej12bnVwnxpl-qq3RtODw/image;s=1280x1024;q=80",
+        "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjdndGVhaDhkeDJycTEtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.gCXdNP9opWX300S4Dn4S1aO5WP3ZhtN78yBq129jsYQ/image;s=1280x1024;q=80",
+        "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InptemdxN2dzd3h2bzMtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.zbQ3DPkHwUKEti7qPMIbjpan9rxlaxOArGvIMSM9O-8/image;s=1280x1024;q=80"
+      ],
+      "url": "https://www.otodom.pl/pl/oferta/dzialka-budowlana-sierockie-widok-na-tatry-ID4ADUf",
+      "scraped_at": "2026-03-25T20:01:13.461000"
+    },
+    {
+      "id": "85073473b4d9",
+      "source": "Otodom",
+      "location_area": "Zakopane i okolice (20 km)",
+      "location_key": "zakopane",
+      "title": "Działka Budowlana Sierockie – Widok Na Tatry",
+      "price": 350000,
+      "price_currency": "PLN",
+      "area_m2": 573,
+      "city": "",
+      "description": " DZIAŁKA BUDOWLANA SIEROCKIE  WIDOK NA TATRY | WARUNKI ZABUDOWY | BIAŁY DUNAJECNa sprzedaż atrakcyjna działka budowlana w miejscowości Sierockie, gmina Biały Dunajec (powiat tatrzański, woj. małopols...",
+      "images": [
+        "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjJpdW9ocHM1YnphMi1BUEwiLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.hv1KWcV_Dhmyxzq_FqRXH60apZkVbkzjV1PaS7x12ms/image;s=1280x1024;q=80",
+        "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InFkeHoxODF5aGx5YjItQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.xdi-mKQZdnxecE4NZsVccpLtv_aVKbGHPs1FQuq2iRA/image;s=1280x1024;q=80",
+        "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImtyOXJrbnNmYmNsYTMtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.iTJ1SbAd3eLqGTBA840gcWHSSSK4oNkDlmVNompfT9Q/image;s=1280x1024;q=80"
+      ],
+      "url": "https://www.otodom.pl/pl/oferta/dzialka-budowlana-sierockie-widok-na-tatry-ID4ADUe",
+      "scraped_at": "2026-03-25T20:01:13.461008"
+    },
+    {
+      "id": "a2ea44b6df7a",
+      "source": "Otodom",
+      "location_area": "Zakopane i okolice (20 km)",
+      "location_key": "zakopane",
+      "title": "Działka przy dolinie Strążyskiej w Zakopanem",
+      "price": 1850000,
+      "price_currency": "PLN",
+      "area_m2": 1189,
+      "city": "",
+      "description": "Działka Rolno-budowlana przy dolinie Strążyskiej w Zakopanem.Biuro Nieruchomości Michalik z siedzibą w Zakopanem przy ul. Nowotarska 19 ma przyjemność zaprezentować Państwu unikatową działkę rolno-bud...",
+      "images": [
+        "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Imt1M3V4cXVyM2pncjEtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.r8LZROXikV42U7b4RdxGev6okcEOn8YXZwdKUN531pg/image;s=1280x1024;q=80",
+        "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InVzZDQ0aXlmODh4MDMtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.uiD-K28APe2FrPu3MjK8N7kJ9fGBh6Iy9uppzEfBajw/image;s=1280x1024;q=80",
+        "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Iml5MzZ6bG1vZnFvdzItQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.qMRZ0QTPcbl0vhdJOV_t7y14entGRxzvq9VP9oZL8qo/image;s=1280x1024;q=80"
+      ],
+      "url": "https://www.otodom.pl/pl/oferta/dzialka-przy-dolinie-strazyskiej-w-zakopanem-ID4y0MC",
+      "scraped_at": "2026-03-25T20:01:13.461014"
+    },
+    {
+      "id": "f0c97c0cbd6a",
+      "source": "Otodom",
+      "location_area": "Zakopane i okolice (20 km)",
+      "location_key": "zakopane",
+      "title": "WIDOKOWA, PODHALE–ZĄB |PANORAMA TATR | POTENCJAŁ POD DOM LUB PENSJONAT",
+      "price": 2200000,
+      "price_currency": "PLN",
+      "area_m2": 2213,
+      "city": "",
+      "description": "WYJĄTKOWA DZIAŁKA WIDOKOWA NA PODHALU – ZĄB | PANORAMA TATR | POTENCJAŁ POD DOM LUB PENSJONATNa sprzedaż wyjątkowa działka budowlana położona w jednej z najbardziej prestiżowych i malowniczych lokaliz...",
+      "images": [
+        "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Imd1dmlwcmJ2cnBtMzEtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.O38yoBRAiZ1IwuPONy-7aXTmRnzn0yRLcuA1NxNiLgM/image;s=1280x1024;q=80",
+        "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Im5mdnI5dDRpdnhnZjEtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.Gz8Yd7BfL34nMm4c7p71CjlB7J7VdrXdO0srcQP6OHE/image;s=1280x1024;q=80",
+        "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImUyMXNwaTU2Z255bzEtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.jjLz3mZ9tr8eHLO5Fl_zsA7LZQv3I81d2_XjOc_6pXs/image;s=1280x1024;q=80"
+      ],
+      "url": "https://www.otodom.pl/pl/oferta/widokowa-podhalezab-panorama-tatr-potencjal-pod-dom-lub-pensjonat-ID4AsXL",
+      "scraped_at": "2026-03-25T20:01:13.461030"
     },
     {
       "id": "1799f1d42df5",
@@ -1863,7 +1833,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Im1kaTV2NmRmZ2l1YTItRUNPU1lTVEVNIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.1C7smJEYdpN7n5vxlAoltHhNv0mjaRGnLWFJuXYjvhU/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/dzialka-bukowina-tatrzanska-pnb-projekt-ID4Azsw",
-      "scraped_at": "2026-03-25T08:10:06.963833"
+      "scraped_at": "2026-03-25T20:01:13.461037"
     },
     {
       "id": "a7390945d0a3",
@@ -1881,7 +1851,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Im45NTRrOGJseHg4Mi1BUEwiLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.DyQiJ3WMgWZRQDClTCSTnYMEhCMgnca6jGZ2DFViQFg/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/wyjatkowa-dzialka-inwestycyjna-w-bialce-tatrzanskiej-ID4yMm7",
-      "scraped_at": "2026-03-25T08:10:06.963848"
+      "scraped_at": "2026-03-25T20:01:13.461052"
     },
     {
       "id": "1cfa35267062",
@@ -1899,7 +1869,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Inhqd25ocTkzaWo3ZS1BUEwiLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.Wem58ZEORWBd6_ts2ctnEFIbaGpIig0PqwPZahUpVz4/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/bezposrednio-dzialki-inwestycyjne-w-sercu-bialki-tatrzanskiej-ID4yRB5",
-      "scraped_at": "2026-03-25T08:10:06.963857"
+      "scraped_at": "2026-03-25T20:01:13.461062"
     },
     {
       "id": "bda60b9eb6c3",
@@ -1918,7 +1888,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImVpbTFwbGg0aGwxMi1BUEwiLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.CDKrLT2LaoF5BOtg7a_AnRpXmHEe6YIC7YFNUcrB_HQ/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/na-sprzedaz-dzialka-budowlana-w-zakopanem-ID4xtrN",
-      "scraped_at": "2026-03-25T08:10:06.963863"
+      "scraped_at": "2026-03-25T20:01:13.461067"
     },
     {
       "id": "e9df90266616",
@@ -1937,7 +1907,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImFnY3lsZWx4ZHVkZDEtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.9Zse1qG4mUPwuiXN_LtPfpmXZ0Op1Aey3iIqXMQiXh0/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/sierockie-dzialka-z-widokiem-na-tatry-ID4AopM",
-      "scraped_at": "2026-03-25T08:10:06.963876"
+      "scraped_at": "2026-03-25T20:01:13.461081"
     },
     {
       "id": "f530d1470c12",
@@ -1956,7 +1926,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImVkcnNkcWNrbm9hYTMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.djvB_Nmh9FzMKIbKqUe2OAd-56lmgnoU9IEwEkGandE/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/dzialka-rolna-z-panoramicznym-widokiem-na-tatry-ID4zZIi",
-      "scraped_at": "2026-03-25T08:10:06.963899"
+      "scraped_at": "2026-03-25T20:01:13.461101"
     },
     {
       "id": "8944122f6055",
@@ -1975,7 +1945,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InRkaWd3dTNoNjhxcS1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.UvBeOu30ncawZqGxGCwJNGvxoeAVtJTgLQF-E6skwrM/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/dzialka-na-gubalowce-z-widokiem-na-tatry-ID4AzxU",
-      "scraped_at": "2026-03-25T08:10:06.963919"
+      "scraped_at": "2026-03-25T20:01:13.461165"
     },
     {
       "id": "fed1d3657dbb",
@@ -1994,7 +1964,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InR2MGhkZzkzbWx0ZTItRUNPU1lTVEVNIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.PWBjzI06WmniTbELOIuMhbKBRkoSzw-cpTDeLkaC7cE/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/nowy-targ-szuflow-39-ar-luksusu-w-otulinie-lasu-ID4AyTw",
-      "scraped_at": "2026-03-25T08:10:06.963931"
+      "scraped_at": "2026-03-25T20:01:13.461179"
     },
     {
       "id": "56cb112f208c",
@@ -2013,7 +1983,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InIwNHR4ZHVqNnQzNDEtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.s0QrQhnYaHda-AqyJe7Hhu7goYod12QEZ_ibV0oKPME/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/bialka-tatrzanska-centrum-ID4A830",
-      "scraped_at": "2026-03-25T08:10:06.963938"
+      "scraped_at": "2026-03-25T20:01:13.461186"
     },
     {
       "id": "e65dad3eea04",
@@ -2021,7 +1991,7 @@
       "location_area": "Zakopane i okolice (20 km)",
       "location_key": "zakopane",
       "title": "Piękna działka Budowlana z widokiem na Tatry",
-      "price": 250000,
+      "price": 280000,
       "price_currency": "PLN",
       "area_m2": 340,
       "city": "",
@@ -2032,7 +2002,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Ijk2ajd5NHdtNXVybzMtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.3aBHs7vlpMBqgPPpGEEzNs8QKXJS9gGG9hWgCm0S_Wg/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/piekna-dzialka-budowlana-z-widokiem-na-tatry-ID4xAcJ",
-      "scraped_at": "2026-03-25T08:10:06.963946"
+      "scraped_at": "2026-03-25T20:01:13.461195"
     },
     {
       "id": "1a716e64d801",
@@ -2051,7 +2021,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InR3bTlrb3U2NnE3ZzEtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.jGsn0wCZXrpguQVXUmBlG6qwrU9N3g__PGbWnrCxwus/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/zakopane-2-domy-na-dzialce-gotowa-inwestycja-szybki-start-wynajmu-ID4AyB9",
-      "scraped_at": "2026-03-25T08:10:06.963952"
+      "scraped_at": "2026-03-25T20:01:13.461201"
     },
     {
       "id": "cf659efb2205",
@@ -2070,7 +2040,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjYwZXduM3diNjczaS1BUEwiLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.MTwqsV8ddPrPpfZvB_pOdlBkejhWJVrfT_YegArKQIE/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/dzialka-2-930-m-poronin-ID4AyAA",
-      "scraped_at": "2026-03-25T08:10:06.963958"
+      "scraped_at": "2026-03-25T20:01:13.461206"
     },
     {
       "id": "b536ef01c72e",
@@ -2089,7 +2059,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InBhbG9oMm04dWcxcjEtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.iBYnZvf0i53LF_gXTeip4C_piketLAAcnwE3aTm0eqE/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/dzialki-budowlane-na-sprzedaz-nowy-targ-osiedle-niwa-ID4Ax4n",
-      "scraped_at": "2026-03-25T08:10:06.963982"
+      "scraped_at": "2026-03-25T20:01:17.309507"
     },
     {
       "id": "4115d072e31f",
@@ -2108,7 +2078,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImpyYTRhaGV0NmZjeDItQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.uYQ14bTidQ8v1zpox-leEBcz2av3ME4Y63i7eWOkWHU/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/dzialka-budowlana-blisko-zakopanego-dookola-cisza-i-gorski-klimat-ID4ytqC",
-      "scraped_at": "2026-03-25T08:10:06.963993"
+      "scraped_at": "2026-03-25T20:01:17.309531"
     },
     {
       "id": "302e8ae704f4",
@@ -2127,7 +2097,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Im9lc2VpN2txemY5dDMtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.3j7x7LlH-qMk9CoZbaKjJwsWZsfYkF0aMqHq0EwoLY0/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/widokowa-dzialka-budowlana-w-zakopanem-z-pozwoleniem-na-budowe-3-domow-ID4zb6U",
-      "scraped_at": "2026-03-25T08:10:13.496251"
+      "scraped_at": "2026-03-25T20:01:17.309546"
     },
     {
       "id": "e983c9bb34af",
@@ -2146,7 +2116,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Im16ZzBvNHpqcGV1aDMtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.juq3YkRqfsLQw9SGYrmOCSjrFPUk9fYOb-0SFkGgIqU/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/dzialka-budowlana-zakopane-widok-spokojna-okolica-ID4AvwJ",
-      "scraped_at": "2026-03-25T08:10:13.496267"
+      "scraped_at": "2026-03-25T20:01:17.309553"
     },
     {
       "id": "9bf5d911010d",
@@ -2165,7 +2135,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImUxNG0xeW80ZzJhODEtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.ZsseuBUM9LkXp7JkCDJikegxrexu7PfGDNqmqjgZq8k/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/dzialka-inwestycyjna-z-prawomocnym-pnb-zakopane-smrekowa-ID4AeZX",
-      "scraped_at": "2026-03-25T08:10:13.496273"
+      "scraped_at": "2026-03-25T20:01:17.309559"
     },
     {
       "id": "f14f224976a7",
@@ -2182,7 +2152,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjU2MW53Ym51dDFkeDEtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.httVe4dw_1AaGOCfxSIPB-aIacYoNqfhIziWW1I9qlc/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/atrakcyjna-widokowa-dzialka-z-pnb-zakopane-centrum-pum-1450-ID4zyQ1",
-      "scraped_at": "2026-03-25T08:10:13.496279"
+      "scraped_at": "2026-03-25T20:01:17.309565"
     },
     {
       "id": "2193288b5d09",
@@ -2201,7 +2171,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InNnenAzc3E3ZHhmbC1BUEwiLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.eyTBBGDhtvwfowYVLp-29bwfNJbGmZh6De45DGx1cQQ/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/budowlana-dzialka-w-czarnej-gorze-k-bialki-tatrzanskiej-ID4xl3Q",
-      "scraped_at": "2026-03-25T08:10:13.496310"
+      "scraped_at": "2026-03-25T20:01:17.309587"
     },
     {
       "id": "3cf94507b9c7",
@@ -2220,7 +2190,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Inc5MzN2MnBrcmEybjItQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.ZsDT4KOldf5xa7qlCOuvGlXg3iFUSjBbdLgQjPQ1sEk/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/dzialka-budowlana-w-widokiem-na-tatry-rezerwacja-ID4Adrr",
-      "scraped_at": "2026-03-25T08:10:13.496318"
+      "scraped_at": "2026-03-25T20:01:17.309596"
     },
     {
       "id": "a4c00558cd7b",
@@ -2239,7 +2209,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImwxOTczdDhiMnh1NDEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.Q58JRYcQjD5avwmYrqtpBjKDzt3GdDUJVqGcwv0uCkg/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/zbuduj-maly-dom-z-widokiem-na-tatry-ID4AsL2",
-      "scraped_at": "2026-03-25T08:10:13.496351"
+      "scraped_at": "2026-03-25T20:01:17.309629"
     },
     {
       "id": "8088019793da",
@@ -2258,7 +2228,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InV5aHh3bWpoN2pqNzMtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.J8uP54lzojxaKy4Z3XX-NMmL3JFewjuLenObOGaP2Qc/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/dzialka-z-pozwoleniem-na-budowe-antalowka-zakopane-ID4tIh2",
-      "scraped_at": "2026-03-25T08:10:13.496357"
+      "scraped_at": "2026-03-25T20:01:17.309634"
     },
     {
       "id": "770dee527e94",
@@ -2277,7 +2247,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjBodjZnM2lrZHNmMjEtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.-CpBylLdaKZyL5WNFuqSfqejb56_rv0J722mEffrlHI/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/dzialka-uslugowo-mieszkaniowa-z-widokiem-na-tatry-w-super-lokalizacji-ID4ArME",
-      "scraped_at": "2026-03-25T08:10:13.496365"
+      "scraped_at": "2026-03-25T20:01:17.309644"
     },
     {
       "id": "3460c576d5fb",
@@ -2296,7 +2266,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImttYXJxa2o0MW5qay1BUEwiLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.r7owNMblm0UelJ9St8Hyd8uFxclmuLqNnHslSePqt3k/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/dzialka-inwestycyjna-z-widokiem-na-tatry-oraz-prawomocnym-pnb-ID4Aqnb",
-      "scraped_at": "2026-03-25T08:10:13.496385"
+      "scraped_at": "2026-03-25T20:01:17.309664"
     },
     {
       "id": "f00e1073d641",
@@ -2315,7 +2285,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Inh0MmVvNDFnMzN3NTMtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.UThES2uSrzCFfdS6lvLU-Hp0GynFhYFpiEDmli_nCuI/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/dzialka-z-pnb-zakopane-ul-chlabowka-dolna-ID4zYAw",
-      "scraped_at": "2026-03-25T08:10:13.496390"
+      "scraped_at": "2026-03-25T20:01:17.309670"
     },
     {
       "id": "cfda67e77137",
@@ -2334,7 +2304,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjZ2Mm1xNTRxNnAxNi1BUEwiLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.Lv0XEZ1YCuZ2A9tNDanemmxxE8J8mqMd_oJ0yi6vFDA/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/najlepszy-widok-na-podhalu-projekt-zakopane-ID4A9he",
-      "scraped_at": "2026-03-25T08:10:13.496401"
+      "scraped_at": "2026-03-25T20:01:17.309681"
     },
     {
       "id": "9ed78eea8f24",
@@ -2353,7 +2323,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjRpMzZwMHZzanpkYzMtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.PFnZFEb6DcWz6GMGByHcTMk_VJWvA5Xdw0kCd0L42QU/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/na-sprzedaz-dzialka-budowlana-nowy-targ-ul-ustronie-gorne-ID4AlK2",
-      "scraped_at": "2026-03-25T08:10:13.496414"
+      "scraped_at": "2026-03-25T20:01:17.309694"
     },
     {
       "id": "f7d397f15efd",
@@ -2372,7 +2342,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Imc5bmw0YjlnZDltajMtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.7uZMMSsNP0opDiDUOYa8zDl3tHBJkeIN0ROVSBYyzRw/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/budowlana-dzialka-7-km-od-zakopanego-widok-na-tatry-ID4x64z",
-      "scraped_at": "2026-03-25T08:10:13.496425"
+      "scraped_at": "2026-03-25T20:01:17.309705"
     },
     {
       "id": "176206af4fa0",
@@ -2391,7 +2361,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InAzYXRwMngxb3EzYzMtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.5v-Fnr00pGps6m1hLRVP5qecTZwlkKP4cx2bJoeMDiw/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/zakopane-dzialka-budowlana-widok-tatry-ID4zIV8",
-      "scraped_at": "2026-03-25T08:10:13.496441"
+      "scraped_at": "2026-03-25T20:01:17.309721"
     },
     {
       "id": "c418ff8c8abe",
@@ -2410,7 +2380,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjFvMmZzN3luZDJzazEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.kLj1rsn7FfdnYYMdUKzoiflv84AHUZwCHNObfQzzIGw/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/dzialka-budowlana-inwestycyjna-kolo-zakopanego-ID4AnMH",
-      "scraped_at": "2026-03-25T08:10:13.496447"
+      "scraped_at": "2026-03-25T20:01:17.309727"
     },
     {
       "id": "9ef1b3bbe37e",
@@ -2429,7 +2399,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Ijh3MW41OTdvc2J2cjItQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.BThqDdxLX9pMfPWO8rbWAX8qGPJNnRnI4oCOGQzfaQc/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/widokowa-dzialka-zakopane-ID4Amlh",
-      "scraped_at": "2026-03-25T08:10:13.496458"
+      "scraped_at": "2026-03-25T20:01:17.309738"
     },
     {
       "id": "42f2aea558d8",
@@ -2448,7 +2418,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Im5ucG1idXZ5ZjdmdTItRUNPU1lTVEVNIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.c2fucMimmB7KKoeHJSFXRQO5c3fDs67cxMV6YGQBuTU/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/dzialka-budowlana-zakopane-ID4z2qx",
-      "scraped_at": "2026-03-25T08:10:13.496469"
+      "scraped_at": "2026-03-25T20:01:20.903170"
     },
     {
       "id": "f13997d7e7fe",
@@ -2467,7 +2437,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InJyMHYwa2xnMHkwcTMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.WopVkH8uk_AGpkSxTi_ywX_lOXLgDGAXUexHNhQNBzw/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/piekna-dzialka-z-widokiem-na-tatry-ID4Alud",
-      "scraped_at": "2026-03-25T08:10:13.496477"
+      "scraped_at": "2026-03-25T20:01:20.903192"
     },
     {
       "id": "340518b8ed5d",
@@ -2486,7 +2456,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Im5iZGVudGk5b3I5cjEtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.CPYSS3pw9heeTpoFUa0cpJeoYdvkplV6qIrJ7ueP2NQ/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/dzialka-inwestycyjna-w-prestizowej-lokalizacji-zakopane-cyrhla-ID4xNlg",
-      "scraped_at": "2026-03-25T08:10:20.762940"
+      "scraped_at": "2026-03-25T20:01:20.903214"
     },
     {
       "id": "a85618250f19",
@@ -2505,7 +2475,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjQzYXE1bWtiN2g0NjItQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.6HgDqfpgeLEBtC4Sc5mNR2aUqTQEgBip6Wapl7Z91I0/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/poronin-majerczykowka-dzialka-972-m2-ID4zfNH",
-      "scraped_at": "2026-03-25T08:10:20.762965"
+      "scraped_at": "2026-03-25T20:01:20.903227"
     },
     {
       "id": "81eac6c68cbf",
@@ -2524,7 +2494,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IndzZjljOTU1ejNpZzMtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.ZQSdTTTQ2U41G3l9myNIyCiqKIIGN3ixK_xakXPO6U8/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/dzialka-budowlana-mpzp-z-widokiem-na-tatry-czarna-gora-ID4ypmx",
-      "scraped_at": "2026-03-25T08:10:20.762975"
+      "scraped_at": "2026-03-25T20:01:20.903236"
     },
     {
       "id": "8b517abad6be",
@@ -2543,7 +2513,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjAzcTA5ZndidXhpMzMtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.vmCOaRIxpPJaU_DE7736TvnDeo0e_cm0mE_eW1qwxB0/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/ostatnia-taka-dzialka-w-tatrach-koscielisko-ID4s193",
-      "scraped_at": "2026-03-25T08:10:20.763004"
+      "scraped_at": "2026-03-25T20:01:20.903263"
     },
     {
       "id": "ec684ce81be0",
@@ -2562,7 +2532,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImFxenA1c3R4ZXZseDEtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.-TaaYLtNNsBQTPnK11FYoVmJMmAqGzJgtBVVGfGCp9g/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/dzialki-budowlane-z-pozwoleniem-na-2-domy-nowy-targ-ul-ustronie-ID4AhCv",
-      "scraped_at": "2026-03-25T08:10:20.763017"
+      "scraped_at": "2026-03-25T20:01:20.903276"
     },
     {
       "id": "e96b0fd5e13d",
@@ -2581,7 +2551,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Ijg3eDdnZGFwYW1xcy1BUEwiLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.bIkoQt8zJ0ltEih3vxOZid5GfGx89nI-Ri1pjlzI9PU/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/dzialka-inwestycyjna-z-pozwoleniem-na-budowe-widok-na-tatry-ID4A9QH",
-      "scraped_at": "2026-03-25T08:10:20.763026"
+      "scraped_at": "2026-03-25T20:01:20.903290"
     },
     {
       "id": "038b3e388e9b",
@@ -2600,7 +2570,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Im01YjV3YXA1OWdhdzItRUNPU1lTVEVNIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.a-3XXbzavy5hM-_VHq4y2DY0e2u3vjzz-Bc_N3rIGxA/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/widokowa-dzialka-budowlana-koscielisko-ID4AgJz",
-      "scraped_at": "2026-03-25T08:10:20.763040"
+      "scraped_at": "2026-03-25T20:01:20.903303"
     },
     {
       "id": "93daf8227922",
@@ -2619,7 +2589,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjVya2FpdG4xOTQ2ZTItQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.vb-YUlxoL2Grs0OaUb39oS5THieN6PD4biZ3fHhtv84/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/sprzedam-dzialke-z-pnb-chlabowka-zakopane-ID4AgiL",
-      "scraped_at": "2026-03-25T08:10:20.763052"
+      "scraped_at": "2026-03-25T20:01:20.903315"
     },
     {
       "id": "aaad505a223d",
@@ -2638,7 +2608,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImFseTY2bzhrcXRpYjItRUNPU1lTVEVNIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.xaRKckbWY1yItmlVOZ0YCZnstj7WflmWMD-DEa5piPA/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/zainwestuj-w-grunt-bialka-tatrzanska-ID4AfPh",
-      "scraped_at": "2026-03-25T08:10:20.763064"
+      "scraped_at": "2026-03-25T20:01:20.903327"
     },
     {
       "id": "7161027749fe",
@@ -2657,7 +2627,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImVyMDYzbmZndWVsbTMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.w03iOpnN4WE-8dlSfSd6VTVR7CoOcMSpjsmL1zoeQXA/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/widokowa-dzialka-w-najwyzszej-czesci-zakopanego-ID4A5SR",
-      "scraped_at": "2026-03-25T08:10:20.763082"
+      "scraped_at": "2026-03-25T20:01:20.903348"
     },
     {
       "id": "555ea0d3b6ec",
@@ -2676,7 +2646,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImI4YnluNWhpZmlmNTMtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.6eimuhdV20hPHtJ-Lf915crzQ2X8GZ28H4sEyMLKO7Q/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/dzialka-nowy-targ-os-niwa-ID4xzEv",
-      "scraped_at": "2026-03-25T08:10:20.763094"
+      "scraped_at": "2026-03-25T20:01:20.903360"
     },
     {
       "id": "5c43b87f903e",
@@ -2695,7 +2665,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Img0M28zOWNieHRhdTEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.D1KrNZu8_XDQ14Mk0_gsjEI3gSTzA2tkSOA-XnJYOII/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/dzialka-budowlana-z-widokiem-zakopane-ID4Acki",
-      "scraped_at": "2026-03-25T08:10:20.763099"
+      "scraped_at": "2026-03-25T20:01:20.903366"
     },
     {
       "id": "432c759cf1d2",
@@ -2714,7 +2684,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImZsc3JvcDNlMXpyZi1BUEwiLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.y9ltaFYAAotPGLjlZ8nTZtQ6efIqPbZ3tpWcLREv-KQ/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/dzialki-rolne-dzial-czarny-dunajec-ID4Aar5",
-      "scraped_at": "2026-03-25T08:10:20.763113"
+      "scraped_at": "2026-03-25T20:01:20.903379"
     },
     {
       "id": "1256e7757df9",
@@ -2733,7 +2703,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjI3OWcwcTZ3MDlrYjEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.LCjgT1T09W3B8HYIvVD0BFgA8dbdGCp_7L5DDB6wuM4/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/inwestycyjna-dzialka-w-bukowinie-tatrzanskiej-ID4Aa98",
-      "scraped_at": "2026-03-25T08:10:20.763122"
+      "scraped_at": "2026-03-25T20:01:20.903387"
     },
     {
       "id": "554ad0e3d0d3",
@@ -2752,7 +2722,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImhhdWttMzdvczdweC1BUEwiLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.9BxdAvUl00Rr9tgqchEOZ2_Wvo1JocMO9jpdyjcQxzM/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/piekna-dzialka-budowlana-z-widokiem-na-tatry-ID4zfbv",
-      "scraped_at": "2026-03-25T08:10:20.763137"
+      "scraped_at": "2026-03-25T20:01:20.903402"
     },
     {
       "id": "e899882e73a8",
@@ -2771,7 +2741,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IndzYWQzMm5wb3kwZDEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.iWepmrRj9AQt1_3QzRQ9f9uBzJG0f8zLuJrcLgta_iE/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/widokowa-dzialka-685m2-koscielisko-zakopane-ID4zZ9V",
-      "scraped_at": "2026-03-25T08:10:20.763172"
+      "scraped_at": "2026-03-25T20:01:26.355276"
     },
     {
       "id": "a33c982c8c5e",
@@ -2788,7 +2758,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImNzZ3pvY2R5Z21lbC1BUEwiLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ._Ngw6hn3cEmDPoz2SdBRNAKY_rqS5RCoAaKMrbhbTLs/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/budowlana-dzialka-w-poroninie-ID4zUhf",
-      "scraped_at": "2026-03-25T08:10:29.750433"
+      "scraped_at": "2026-03-25T20:01:26.355305"
     },
     {
       "id": "202135748f19",
@@ -2796,7 +2766,7 @@
       "location_area": "Zakopane i okolice (20 km)",
       "location_key": "zakopane",
       "title": "Zakopane widokowa działka 1756 m² Tatry, MPZP, pełne uzbrojenie, media",
-      "price": 1730000,
+      "price": 1630000,
       "price_currency": "PLN",
       "area_m2": 1756,
       "city": "",
@@ -2807,7 +2777,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Ind0d2RrMm9hcGplYjMtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.i2JxeiscAo0keN2TuZgmHKdJjcN-bYzHQATsSdmu4pM/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/zakopane-widokowa-dzialka-1756-m-tatry-mpzp-pelne-uzbrojenie-media-ID4zTeb",
-      "scraped_at": "2026-03-25T08:10:29.750468"
+      "scraped_at": "2026-03-25T20:01:26.355332"
     },
     {
       "id": "a6021723a674",
@@ -2826,7 +2796,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImR5NW9kNWphcGRyYS1BUEwiLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.UQGfzoEmf8CNiWnSAG0JGRIzxHootMhappuX3ew5j7c/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/dzialka-z-pozwolenie-na-budowe-widok-tatry-ID4t8tf",
-      "scraped_at": "2026-03-25T08:10:29.750477"
+      "scraped_at": "2026-03-25T20:01:26.355340"
     },
     {
       "id": "8c722b4e2592",
@@ -2845,7 +2815,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImdsbXdtd2I3dHJ2bS1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.jSQsEMJDOo8ExTYwNhxb60KBIpPKLFBWzNKF1Qlu2MA/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/widokowa-dzialka-1900m2-koscielisko-zakopane-ID4zM6I",
-      "scraped_at": "2026-03-25T08:10:29.750520"
+      "scraped_at": "2026-03-25T20:01:26.355385"
     },
     {
       "id": "98b7c02e5e09",
@@ -2864,7 +2834,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjRsa3RnenJ2dXo2dzEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.D293Q3sV5nwfGpEUqhEufhq4AKKg_RS817WLIN2orD4/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/dzialka-1100m2-uslugowa-czarny-dunajec-ID4zJV7",
-      "scraped_at": "2026-03-25T08:10:29.750528"
+      "scraped_at": "2026-03-25T20:01:26.355394"
     },
     {
       "id": "84329231b2bf",
@@ -2883,7 +2853,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InFlcDV3cjAwbmhhZS1BUEwiLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.N8F-6xCQ35k789WhWE8iPPKHoNWj5FjwiBKseHViuj8/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/dzialka-z-niezagrozonym-widokiem-na-tatry-ID4tAZq",
-      "scraped_at": "2026-03-25T08:10:29.750542"
+      "scraped_at": "2026-03-25T20:01:26.355409"
     },
     {
       "id": "ad2bdb5bc273",
@@ -2902,7 +2872,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImhkY2k4Zjhibmw1MzEtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.sE7zpiTzhZUzxLj8UeJ5G_ht6oBNZOKkBeeekS2a13w/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/dzialka-budowlana-z-widokiem-na-zakopane-i-gory-ul-ciaglowka-ID4wTl7",
-      "scraped_at": "2026-03-25T08:10:29.750554"
+      "scraped_at": "2026-03-25T20:01:26.355425"
     },
     {
       "id": "28d2ce68cf5a",
@@ -2921,7 +2891,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImhxZTIzbGNiMG8zbDItQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.EbsgtrPzVPhjln9R4jZKp9yFoRTNg4C66d2FX9u9Rf4/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/dzialka-budowlana-z-droga-zwijacze-zakopane-ID4zCr3",
-      "scraped_at": "2026-03-25T08:10:29.750560"
+      "scraped_at": "2026-03-25T20:01:26.355431"
     },
     {
       "id": "3201ceacbe6d",
@@ -2940,7 +2910,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImEwemdqNW41eXJvaS1BUEwiLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.yyCm8O7oudaTVCbWCV2EVa11oKBDFLhXoVGoHwLwF2w/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/widokowa-dzialka-budowlana-1310-m-nowy-targ-ID4zzDA",
-      "scraped_at": "2026-03-25T08:10:29.750582"
+      "scraped_at": "2026-03-25T20:01:26.355453"
     },
     {
       "id": "563610612e0f",
@@ -2959,7 +2929,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImMyZDJ0aWl6ZjJtaDMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.f6lKhR9NGIHq7Wp806uMbca1tVCt9Bft_eNx5S_gqqs/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/dzialka-1588m2-z-widokiem-dzianisz-koscielisko-ID4zsqM",
-      "scraped_at": "2026-03-25T08:10:29.750612"
+      "scraped_at": "2026-03-25T20:01:26.355484"
     },
     {
       "id": "a1f96bd45308",
@@ -2978,7 +2948,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Imtlc2IxandrZDZmdDMtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.qcizgtbktKyw1HzhgBbTx6Tn8WP6v1P7pha3QT8n-eE/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/dzialka-1-948-m-bialka-tatrzanska-ID4zqk9",
-      "scraped_at": "2026-03-25T08:10:29.750628"
+      "scraped_at": "2026-03-25T20:01:26.355501"
     },
     {
       "id": "bcc120e36dfe",
@@ -2997,7 +2967,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjAwNmd2ejZ6NWJkaDMtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.rg85pb9aqG5YZammWqfpmYQ2qko9YvYrIVxn8AvLRhw/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/tatry-w-zasiegu-reki-ID4zpHo",
-      "scraped_at": "2026-03-25T08:10:29.750646"
+      "scraped_at": "2026-03-25T20:01:31.913048"
     },
     {
       "id": "ab1b9f07eaa3",
@@ -3016,7 +2986,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImZzbWY3emozb2FmdDEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.jBoR2vvxu8s4T5q7F0H3-vsY0i4v4HUu7-1MIkTwX2U/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/nowy-targ-dzialka-komercyjna-ID4vBlZ",
-      "scraped_at": "2026-03-25T08:10:34.905681"
+      "scraped_at": "2026-03-25T20:01:31.913073"
     },
     {
       "id": "d407139fc83b",
@@ -3035,7 +3005,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImMxMHNxY3VjdWVucTItQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.otX5hPxeYsZOMFTUyW03bWQAbLXZswjjbSvZvhLglN4/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/dzialka-rolna-widokowa-bialy-dunajec-ID4zjCi",
-      "scraped_at": "2026-03-25T08:10:34.905703"
+      "scraped_at": "2026-03-25T20:01:31.913087"
     },
     {
       "id": "55df84a6cea9",
@@ -3052,7 +3022,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImVuNmhsaHJ1YW9pMjItQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.-W-fT1l56ia6FgnZhP6Y2cUTk5niVpjXna00YoDsykM/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/nowy-targ-ul-ustronie-gorne-ID4zhOM",
-      "scraped_at": "2026-03-25T08:10:34.905717"
+      "scraped_at": "2026-03-25T20:01:31.913100"
     },
     {
       "id": "b070ce4df212",
@@ -3071,7 +3041,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Imt2ZmY5cTZ5dmxpMy1BUEwiLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.7zPThYSfQuXafmtPCxqQSDJzvu0VXvw7AeYDYGaOUDw/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/dzialka-2-500-m-zakopane-ID4zhqi",
-      "scraped_at": "2026-03-25T08:10:34.905723"
+      "scraped_at": "2026-03-25T20:01:31.913106"
     },
     {
       "id": "89e1c1d32435",
@@ -3090,7 +3060,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImoydXFweGRqYmZpNzMtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.jDkqJ22WuK70Cl3-iK5NnxZ6EX6MkdphCt4Z8mEwPEk/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/dzialki-budowlana-ciche-podhale-ID4zd9q",
-      "scraped_at": "2026-03-25T08:10:34.905745"
+      "scraped_at": "2026-03-25T20:01:31.913128"
     },
     {
       "id": "d48a673b353b",
@@ -3109,7 +3079,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImtwMmJ5bzZxamtlejEtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.iHyNZ-dQttZdn3eEEJamBu3J1ct52CuES76zQWOxLuk/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/dzialka-z-widokiem-na-tatry-zakopane-wojdyly-ID4zbeN",
-      "scraped_at": "2026-03-25T08:10:34.905764"
+      "scraped_at": "2026-03-25T20:01:31.913154"
     },
     {
       "id": "d79efdfc21d7",
@@ -3128,7 +3098,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InZ3Zmw2aXM1dDA2azItQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.Yhci8xvc_giE3VTSNXSmMFqw56Zrcf-88aUzg9mP5QA/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/dzialka-budowlana-poronin-majerczykowka-ID4z9ZR",
-      "scraped_at": "2026-03-25T08:10:34.905786"
+      "scraped_at": "2026-03-25T20:01:31.913182"
     },
     {
       "id": "1eda02c98d97",
@@ -3142,12 +3112,12 @@
       "city": "",
       "description": "Na sprzedaż działka o powierzchni ok. 2073 m², położona w jednej z najbardziej poszukiwanych lokalizacji na Podhalu – Bukowinie Tatrzańskiej. To idealna propozycja zarówno pod przyszłą inwestycję, jak...",
       "images": [
-        "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImxhNGJlN2UwNW5yLUVDT1NZU1RFTSIsInciOlt7ImZuIjoiZW52ZnFxZTFheTRrMS1BUEwiLCJzIjoiMTQiLCJwIjoiMTAsLTEwIiwiYSI6IjAifV19.uQOfIZh7GQf0QvC0has5SAx7tvs0FcmlYv15HN0etkE/image;s=1280x1024;q=80",
-        "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjR6Mnk5em50aWYyMzMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.R1ZVpcz5pNGSwFvJufUMR_CBLZlVQiVket7c90cJHDQ/image;s=1280x1024;q=80",
-        "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImdraXJxaHF1a2QyczEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.ObGihfByMFclo34uLCkwVAD5HRJUaFrx8dKwLhDUq5E/image;s=1280x1024;q=80"
+        "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Im96NXh6eDhtOGZ5MjMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.pLDYDfIZxueaXC2fPLRS9ugrKahToHOEuicwcwPKskM/image;s=1280x1024;q=80",
+        "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImxzcjFwMW5xbnpmbDEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.nhSl89T6PqU7W3wjH2DFiowEV34RV3ZkkFqw2iM0trQ/image;s=1280x1024;q=80",
+        "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImpnbGc0bzlqcHo1MjItRUNPU1lTVEVNIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.54cvitMveoCYHyM5mcPPthkY5lSlkxFBTXYx5TsSzrI/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/dzialka-w-bukowinie-tatrzanskiej-inwestycyjna-ID4z7bE",
-      "scraped_at": "2026-03-25T08:10:34.905814"
+      "scraped_at": "2026-03-25T20:01:31.913196"
     },
     {
       "id": "0959d906f15c",
@@ -3166,7 +3136,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Imlna2R6dXA0M3I2MjItQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.oiwwm8vE9CT9ru0cFhlnLBTwvCKzGQKmKPHm_mQgvz4/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/atrakcyjna-dzialka-rolna-ul-krole-zakopane-ID4xwl9",
-      "scraped_at": "2026-03-25T08:10:34.905820"
+      "scraped_at": "2026-03-25T20:01:31.913202"
     },
     {
       "id": "9f3403b3851b",
@@ -3185,7 +3155,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Iml5aGdiaWl1NTBldi1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.rNGOo3XTuBRjca5K5sL6hbWknTyWbyz4VM5WqntuTAw/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/z-widokiem-tatry-o-szerokosci-33m-rysulowka-ID4z5BU",
-      "scraped_at": "2026-03-25T08:10:34.905845"
+      "scraped_at": "2026-03-25T20:01:31.913227"
     },
     {
       "id": "2f882e7f65fd",
@@ -3204,7 +3174,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjRpZHJiMGNoOWczNC1BUEwiLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.9PAACI4bhVLnmPVJ5k2oVgXwFcMj37JBIU44_7n_LA8/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/budowlana-dzialka-z-widokiem-na-tatry-idealne-wymiary-pod-dom-ID4z4oN",
-      "scraped_at": "2026-03-25T08:10:34.905859"
+      "scraped_at": "2026-03-25T20:01:31.913245"
     },
     {
       "id": "0139861336e1",
@@ -3223,7 +3193,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjFscThqd3hrc2cyay1BUEwiLCJ3IjpbeyJmbiI6ImVudmZxcWUxYXk0azEtQVBMIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.B_vKE8k3zjlJOHb4WaiSqZhvKALJDu6HwMnDEJ2TZHA/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/widokowa-dzialka-budowlana-na-gubalowce-widok-na-tatry-3100m2-pum-ID4sqmd",
-      "scraped_at": "2026-03-25T08:10:34.905880"
+      "scraped_at": "2026-03-25T20:01:31.913266"
     },
     {
       "id": "f8018b2e1027",
@@ -3242,7 +3212,7 @@
         "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImZhZjV2dWtrcjl5dzEtQVBMIiwidyI6W3siZm4iOiJlbnZmcXFlMWF5NGsxLUFQTCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.AZGgpmBAqi12k4LeocYenK2EhurJCf6f-3gWnuZkkr4/image;s=1280x1024;q=80"
       ],
       "url": "https://www.otodom.pl/pl/oferta/ksztaltna-budowlana-dzialka-w-cichem-6-km-od-chocholowa-ID4uDkY",
-      "scraped_at": "2026-03-25T08:10:34.905905"
+      "scraped_at": "2026-03-25T20:01:31.913292"
     },
     {
       "id": "1b93272f4e65",
@@ -3259,7 +3229,7 @@
         "https://galeria.domiporta.pl/pictures/small/13/69/d4/d469c61561052dcc612799cc036bc1729b2fbd48/widokowa_dzialka_w_koscielisku_z_giewontem_i_czerwonymi_wierchami.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-koscielisko-2941m2/156399421",
-      "scraped_at": "2026-03-25T08:10:39.258658"
+      "scraped_at": "2026-03-25T20:01:36.809088"
     },
     {
       "id": "90bafe2eb06f",
@@ -3276,7 +3246,7 @@
         "https://galeria.domiporta.pl/pictures/small/10/eb/5a/5aeb0233a5f9eb17feb27638b3a33a58a7548731/dzialka_inwestycyjna_z_domami,_widok_na_giewont.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-zakopane-1500m2/156209976",
-      "scraped_at": "2026-03-25T08:10:39.260490"
+      "scraped_at": "2026-03-25T20:01:36.810826"
     },
     {
       "id": "878b190d9bd8",
@@ -3293,7 +3263,7 @@
         "https://galeria.domiporta.pl/pictures/small/18/8d/f5/f58d8c9efdb55f990ae279e61c8b4ea2d8156465/unikatowa_dzialka_widokowa_na_gubalowce_z_wz_i_mediami.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-koscielisko-salamandra-2172m2/156209975",
-      "scraped_at": "2026-03-25T08:10:39.261400"
+      "scraped_at": "2026-03-25T20:01:36.811769"
     },
     {
       "id": "8ff4f0205bce",
@@ -3310,7 +3280,7 @@
         "https://galeria.domiporta.pl/pictures/small/11/13/9e/9e13185e823a4dd1fa1c4b872db4995d2207dfa3/widokowa_dzialka_w_zakopanem_1025_m²_z_mediami.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-zakopane-1025m2/156209974",
-      "scraped_at": "2026-03-25T08:10:39.262301"
+      "scraped_at": "2026-03-25T20:01:36.812642"
     },
     {
       "id": "5c1fec58e566",
@@ -3327,7 +3297,7 @@
         "https://galeria.domiporta.pl/pictures/small/16/85/90/9085f3abf06647eaaa3634ca7459a8b9b2ab9c10/dzialka_budowlana_z_widokiem_na_gory,_uzbrojona,_600_m².jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-koscielisko-590m2/156206369",
-      "scraped_at": "2026-03-25T08:10:39.263173"
+      "scraped_at": "2026-03-25T20:01:36.813510"
     },
     {
       "id": "5a63c06b0bb6",
@@ -3344,7 +3314,7 @@
         "https://galeria.domiporta.pl/pictures/small/12/52/1e/1e52bdfacfabc7fbd275a663c61f19e09dac82eb/urokliwa_dzialka_z_domem,_widok_na_giewont,_las,_cisza.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-zakopane-strazyska-1189m2/156206355",
-      "scraped_at": "2026-03-25T08:10:39.264038"
+      "scraped_at": "2026-03-25T20:01:36.814370"
     },
     {
       "id": "725851e0effb",
@@ -3361,7 +3331,7 @@
         "https://galeria.domiporta.pl/pictures/small/13/5e/9e/9e5ec46b59562e0cdf70cd4beed97e8dc32f4279/dzialka_902_m²_z_widokiem_na_giewont,_ogrodzona,_media.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-zakopane-chlabowka-902m2/156414966",
-      "scraped_at": "2026-03-25T08:10:39.270888"
+      "scraped_at": "2026-03-25T20:01:36.822889"
     },
     {
       "id": "f2659367422e",
@@ -3378,7 +3348,7 @@
         "https://galeria.domiporta.pl/pictures/small/11/5e/64/645e1c567a043c5f79d847323ec7acef602577ed/dzialka_inwestycyjna_3900m²_z_widokiem_na_tatry.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-poronin-3900m2/155463164",
-      "scraped_at": "2026-03-25T08:10:39.271754"
+      "scraped_at": "2026-03-25T20:01:36.823769"
     },
     {
       "id": "237001b02da2",
@@ -3395,7 +3365,7 @@
         "https://galeria.domiporta.pl/pictures/small/10/bd/48/48bd02bf477ffca2a8b15cf3e44aaa2eac1b0730/dzialka_na_gubalowce_z_widokiem_na_tatry,_3388_m2.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-zakopane-droga-zubka-3388m2/156409967",
-      "scraped_at": "2026-03-25T08:10:39.274312"
+      "scraped_at": "2026-03-25T20:01:36.826320"
     },
     {
       "id": "35500b45ceff",
@@ -3412,7 +3382,7 @@
         "https://galeria.domiporta.pl/pictures/small/12/97/07/0797b531bbca6927ec19fa1094ca0777c7ef3031/widokowa_dzialka_w_zakopanem_z_prywatnoscia_i_tatrami.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-zakopane-zoniowka-695m2/156405849",
-      "scraped_at": "2026-03-25T08:10:39.275165"
+      "scraped_at": "2026-03-25T20:01:36.827175"
     },
     {
       "id": "50ef97e0bacd",
@@ -3429,7 +3399,7 @@
         "https://galeria.domiporta.pl/pictures/small/11/fd/e5/e5fd1570deb73487f5bcabda7e46a6022d6b7e17/widokowa_dzialka_rolna_na_butorowym_wierchu_z_dostepem_do_drogi.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-koscielisko-2168m2/156206354",
-      "scraped_at": "2026-03-25T08:10:39.276018"
+      "scraped_at": "2026-03-25T20:01:36.828010"
     },
     {
       "id": "51c9ab7c7435",
@@ -3446,7 +3416,7 @@
         "https://galeria.domiporta.pl/pictures/small/12/00/60/600026264d42bba541186f8fc075d07c9914d54f/dzialka_budowlana_z_projektem_willi,_tatry,_1350_m².jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-koscielisko-nedzy-kubinca-1350m2/156206353",
-      "scraped_at": "2026-03-25T08:10:39.276872"
+      "scraped_at": "2026-03-25T20:01:36.828867"
     },
     {
       "id": "eaa8c7d1fedd",
@@ -3463,7 +3433,7 @@
         "https://galeria.domiporta.pl/pictures/small/14/5f/66/665fdbecd8b9f80abad76dacc2b19f0a20ff71cd/dzialka_z_panoramicznym_widokiem_na_tatry,_koscielisko.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-koscielisko-zakopane-1010m2/156399424",
-      "scraped_at": "2026-03-25T08:10:39.277714"
+      "scraped_at": "2026-03-25T20:01:36.829719"
     },
     {
       "id": "6ccc1df4db35",
@@ -3480,7 +3450,7 @@
         "https://galeria.domiporta.pl/pictures/small/11/1e/37/371eaf7d934cea6c4bb278442b46b8e9b771b6ed/unikatowa_dzialka_z_panoramicznym_widokiem_na_tatry_w_koscielisku.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-koscielisko-2142m2/156399423",
-      "scraped_at": "2026-03-25T08:10:39.278576"
+      "scraped_at": "2026-03-25T20:01:36.830576"
     },
     {
       "id": "17ab26050f62",
@@ -3497,24 +3467,7 @@
         "https://galeria.domiporta.pl/pictures/small/16/3c/76/763c67beb794ec5dc1beb68268257057d9f9a798/ekskluzywna_dzialka_z_projektem_rezydencji_w_zakopanem.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-zakopane-1129m2/156399422",
-      "scraped_at": "2026-03-25T08:10:39.279468"
-    },
-    {
-      "id": "43de25b8b221",
-      "source": "Domiporta",
-      "location_area": "Zakopane i okolice (20 km)",
-      "location_key": "zakopane",
-      "title": "działka na sprzedaż 1720m2",
-      "price": 1375000,
-      "price_currency": "PLN",
-      "area_m2": 1720,
-      "city": "",
-      "description": "",
-      "images": [
-        "https://galeria.domiporta.pl/pictures/small/19/36/31/3136912566cff8f983aa4a914b50df51869a91a5/widokowa_dzialka_w_koscielisku_z_pasmem_tatr,_1720_m².jpg"
-      ],
-      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-koscielisko-karpielowka-1720m2/156396604",
-      "scraped_at": "2026-03-25T08:10:39.281175"
+      "scraped_at": "2026-03-25T20:01:36.831461"
     },
     {
       "id": "776c397b1f1b",
@@ -3531,7 +3484,7 @@
         "https://galeria.domiporta.pl/pictures/small/13/d9/c8/c8d9c95a43bf53e8018c18e175061a89055bb337/widokowa_dzialka_w_zakopanem_z_prywatnoscia_i_pieknym_panorama.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-zakopane-zoniowka-1970m2/156389122",
-      "scraped_at": "2026-03-25T08:10:39.288056"
+      "scraped_at": "2026-03-25T20:01:36.839204"
     },
     {
       "id": "2c5ee85bf2cb",
@@ -3548,7 +3501,7 @@
         "https://galeria.domiporta.pl/pictures/small/16/05/b1/b1056573723002c5af4b9b13e282d63996269f60/dzialka_pod_zabudowe_5_domow_z_mediami,_3108_m2.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-poronin-majerczykowka-3108m2/156290182",
-      "scraped_at": "2026-03-25T08:10:39.288910"
+      "scraped_at": "2026-03-25T20:01:41.067399"
     },
     {
       "id": "bd1f6287040c",
@@ -3565,7 +3518,7 @@
         "https://galeria.domiporta.pl/pictures/small/17/9d/33/339d730082703754d58caab67e110dd1f7878872/widokowa_dzialka_budowlana_w_zakopanem,_539_m2,_lasy.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-zakopane-539m2/155941046",
-      "scraped_at": "2026-03-25T08:10:43.225427"
+      "scraped_at": "2026-03-25T20:01:41.071789"
     },
     {
       "id": "b41161e5f6eb",
@@ -3582,7 +3535,7 @@
         "https://galeria.domiporta.pl/pictures/small/19/1d/8b/8b1d98c059bdd731e47b69168092d1737cd781a6/dzialka_inwestycyjna_z_widokiem_na_tatry,_2720_m².jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-zakopane-zakopane-hrube-2720m2/155458158",
-      "scraped_at": "2026-03-25T08:10:43.226300"
+      "scraped_at": "2026-03-25T20:01:41.072664"
     },
     {
       "id": "f08041a5ce10",
@@ -3599,7 +3552,7 @@
         "https://galeria.domiporta.pl/pictures/small/16/a2/18/18a26a8c8df4ebd214642d29872b895da0c9c244/dzialka_726_m²_pod_dom_i_uslugi_w_zakopanem.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-zakopane-726m2/156374827",
-      "scraped_at": "2026-03-25T08:10:43.231552"
+      "scraped_at": "2026-03-25T20:01:41.077824"
     },
     {
       "id": "f8905dd50bd2",
@@ -3616,7 +3569,7 @@
         "https://galeria.domiporta.pl/pictures/small/10/b8/10/10b80504d58663c56e2c5a87fad4886226f2aad3/ekskluzywna_rezydencja_z_widokiem_na_giewont_w_zakopanem.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-zakopane-zakopane-3200m2/156374189",
-      "scraped_at": "2026-03-25T08:10:43.232423"
+      "scraped_at": "2026-03-25T20:01:41.078699"
     },
     {
       "id": "b656be627efe",
@@ -3633,7 +3586,7 @@
         "https://galeria.domiporta.pl/pictures/small/13/b7/9a/9ab7cd7897b1b6540b12e2260cf2c76a8deaccfa/atrakcyjna_dzialka_inwestycyjna_w_zakopanem_5485_m².jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-zakopane-za-strugiem-5485m2/156373060",
-      "scraped_at": "2026-03-25T08:10:43.233275"
+      "scraped_at": "2026-03-25T20:01:41.079570"
     },
     {
       "id": "59f449af4290",
@@ -3650,7 +3603,7 @@
         "https://galeria.domiporta.pl/pictures/small/10/66/17/176603b771096cb9c38801df91f383fba781280d/widokowa_dzialka_budowlana_z_projektem_osady_w_bustryku.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-zakopane-1423m2/155525320",
-      "scraped_at": "2026-03-25T08:10:43.237540"
+      "scraped_at": "2026-03-25T20:01:41.083861"
     },
     {
       "id": "e1536d38d3b9",
@@ -3667,7 +3620,7 @@
         "https://galeria.domiporta.pl/pictures/small/13/15/b4/b415c7415b6b0a70f6a53d176c9399a1dc6fe625/dzialka_inwestycyjna_z_widokiem_na_tatry,_5356_m2.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-poronin-5356m2/155287344",
-      "scraped_at": "2026-03-25T08:10:43.239300"
+      "scraped_at": "2026-03-25T20:01:41.085637"
     },
     {
       "id": "b6d14f4e530e",
@@ -3684,7 +3637,7 @@
         "https://galeria.domiporta.pl/pictures/small/14/e6/d6/d6e6415f3d8322a4ab33a54492255c2bbee3412f/dzialka_w_zakopanem_zwijacze_z_widokami_i_mpzp.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-zakopane-zwijacze-1450m2/156324568",
-      "scraped_at": "2026-03-25T08:10:43.240159"
+      "scraped_at": "2026-03-25T20:01:41.086497"
     },
     {
       "id": "06b4f991fa8a",
@@ -3701,7 +3654,7 @@
         "https://galeria.domiporta.pl/pictures/small/15/4a/06/064ae50f76a607d8fc05a23517aacbc1d810b63a/dzialka_rolna_z_widokiem_na_tatry,_855_m²,_zakopane.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-zakopane-wojdyly-855m2/156281086",
-      "scraped_at": "2026-03-25T08:10:43.247032"
+      "scraped_at": "2026-03-25T20:01:41.093314"
     },
     {
       "id": "44e0f01cf8fb",
@@ -3718,7 +3671,7 @@
         "https://galeria.domiporta.pl/pictures/small/17/58/dd/dd587c2cee426115c729e799427ab0ea3064a1ef/dzialka_rolna_w_poroninie_z_widokami,_2801_m².jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-poronin-skupniowa-2801m2/156201099",
-      "scraped_at": "2026-03-25T08:10:46.300346"
+      "scraped_at": "2026-03-25T20:01:46.178543"
     },
     {
       "id": "e88344a539d8",
@@ -3735,7 +3688,7 @@
         "https://galeria.domiporta.pl/pictures/small/16/70/90/9070f5882c8055eb579a104dfdf0ac36769d7023/dzialka_812_m²_z_domem,_inwestycja_w_zakopanem.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-zakopane-cichej-wody-812m2/155698187",
-      "scraped_at": "2026-03-25T08:10:46.302119"
+      "scraped_at": "2026-03-25T20:01:46.180322"
     },
     {
       "id": "6b589241cc73",
@@ -3752,7 +3705,7 @@
         "https://galeria.domiporta.pl/pictures/small/15/1d/d5/d51de4da54fb689ca51ed77c3239364eef096fe2/dzialka_inwestycyjna_w_zakopanem,_bachledzki_wierch.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-zakopane-bachledzki-wierch-7328m2/156149889",
-      "scraped_at": "2026-03-25T08:10:46.302996"
+      "scraped_at": "2026-03-25T20:01:46.181290"
     },
     {
       "id": "b8594df0c618",
@@ -3769,7 +3722,7 @@
         "https://galeria.domiporta.pl/pictures/small/18/00/b6/b6008e0607759e0ffcfcadca788557d5b7580e50/dzialka_w_zakopanem_2937_m²_z_widokiem_na_giewont.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-zakopane-losiowki-2937m2/156098082",
-      "scraped_at": "2026-03-25T08:10:46.303855"
+      "scraped_at": "2026-03-25T20:01:46.182173"
     },
     {
       "id": "cb0ae4aa7a13",
@@ -3786,7 +3739,7 @@
         "https://galeria.domiporta.pl/pictures/small/12/89/3e/3e89befb496f7377e1751965539024caabb2edad/dzialka_rekreacyjna_z_widokiem_na_tatry,_las_i_laki.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-koscielisko-4426m2/152722802",
-      "scraped_at": "2026-03-25T08:10:46.304714"
+      "scraped_at": "2026-03-25T20:01:46.183220"
     },
     {
       "id": "492ef013420f",
@@ -3803,7 +3756,7 @@
         "https://galeria.domiporta.pl/pictures/small/13/e7/e5/e5e7c562050e140449a0401a9e86190be4ce4659/dzialka_854_m2_pod_zabudowe_mieszkaniowo-uslugowa.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-poronin-kosciuszki-854m2/155896119",
-      "scraped_at": "2026-03-25T08:10:46.309040"
+      "scraped_at": "2026-03-25T20:01:46.187491"
     },
     {
       "id": "2e70395d449c",
@@ -3820,7 +3773,7 @@
         "https://galeria.domiporta.pl/pictures/small/11/03/f3/f3031d73cf5b48a1b68d0eb5a672e6989e4f97c5/dzialka_1650_m²_z_widokiem_na_tatry,_media,_asfalt.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-poronin-poronin-murzasichle-1650m2/155869415",
-      "scraped_at": "2026-03-25T08:10:46.309905"
+      "scraped_at": "2026-03-25T20:01:46.188356"
     },
     {
       "id": "126cb0f8794a",
@@ -3837,7 +3790,7 @@
         "https://galeria.domiporta.pl/pictures/small/19/c9/60/60c99a5fff96712453a349cd70f92deb8f378dc5/dzialka_z_widokiem_w_koscielisku,_mpzp_pod_zabudowe.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-koscielisko-chotarz-chotarz-bor-1305m2/155724592",
-      "scraped_at": "2026-03-25T08:10:46.317650"
+      "scraped_at": "2026-03-25T20:01:46.196055"
     },
     {
       "id": "08da4215fee7",
@@ -3854,7 +3807,7 @@
         "https://galeria.domiporta.pl/pictures/small/10/37/fc/fc37089a3f0107ae8e8433d496d9e2113af19b47/dzialka_murzasichle_4180_m2_z_widokiem_na_tatry,_pod_pensjonat.jpg"
       ],
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dzialke-murzasichle-4180m2/152947066",
-      "scraped_at": "2026-03-25T08:10:46.322708"
+      "scraped_at": "2026-03-25T20:01:46.201451"
     },
     {
       "id": "fc286a8d616f",
@@ -3871,41 +3824,7 @@
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
       "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-malopolskie-tatrzanski-1025m2-mzn2046610161",
-      "scraped_at": "2026-03-25T08:13:33.140567"
-    },
-    {
-      "id": "14c95e123d33",
-      "source": "Morizon",
-      "location_area": "Zakopane i okolice (20 km)",
-      "location_key": "zakopane",
-      "title": "BUSTRYK NA SPRZEDAŻ WIDOKOWA DZIAŁKA",
-      "price": 1499000,
-      "price_currency": "PLN",
-      "area_m2": null,
-      "city": "Zakopane, tatrzański",
-      "description": "",
-      "images": [
-        "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
-      ],
-      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-malopolskie-tatrzanski-1423m2-mzn2044877571",
-      "scraped_at": "2026-03-25T08:13:33.142785"
-    },
-    {
-      "id": "c9249a501195",
-      "source": "Morizon",
-      "location_area": "Zakopane i okolice (20 km)",
-      "location_key": "zakopane",
-      "title": "NA SPRZEDAŻ DZIAŁKA BUDOWLANA W ZAKOPANEM",
-      "price": 690000,
-      "price_currency": "PLN",
-      "area_m2": null,
-      "city": "Zakopane, tatrzański",
-      "description": "",
-      "images": [
-        "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
-      ],
-      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-malopolskie-tatrzanski-539m2-mzn2045921254",
-      "scraped_at": "2026-03-25T08:13:33.144889"
+      "scraped_at": "2026-03-25T20:04:30.268743"
     },
     {
       "id": "c5d139f70825",
@@ -3922,7 +3841,7 @@
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
       "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-malopolskie-tatrzanski-1129m2-mzn2046045492",
-      "scraped_at": "2026-03-25T08:13:33.147081"
+      "scraped_at": "2026-03-25T20:04:30.270972"
     },
     {
       "id": "c4ebb3a7d264",
@@ -3939,7 +3858,7 @@
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
       "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-malopolskie-tatrzanski-1010m2-mzn2046045494",
-      "scraped_at": "2026-03-25T08:13:33.149134"
+      "scraped_at": "2026-03-25T20:04:30.273061"
     },
     {
       "id": "d8ed4fb8e403",
@@ -3956,7 +3875,7 @@
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
       "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-malopolskie-tatrzanski-628m2-mzn2045733344",
-      "scraped_at": "2026-03-25T08:13:33.151193"
+      "scraped_at": "2026-03-25T20:04:30.275168"
     },
     {
       "id": "16bca32e7c83",
@@ -3973,7 +3892,7 @@
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
       "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-malopolskie-tatrzanski-400-m-od-krupowek-1187m2-mzn2044890985",
-      "scraped_at": "2026-03-25T08:13:33.152732"
+      "scraped_at": "2026-03-25T20:04:30.276727"
     },
     {
       "id": "d2d2ad9dc430",
@@ -3990,7 +3909,7 @@
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
       "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-malopolskie-tatrzanski-3388m2-mzn2047061303",
-      "scraped_at": "2026-03-25T08:13:33.154753"
+      "scraped_at": "2026-03-25T20:04:30.278780"
     },
     {
       "id": "eb5c800c1a05",
@@ -4007,7 +3926,7 @@
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
       "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-malopolskie-tatrzanski-zoniowka-695m2-mzn2047055316",
-      "scraped_at": "2026-03-25T08:13:33.156778"
+      "scraped_at": "2026-03-25T20:04:30.280914"
     },
     {
       "id": "82747cfa0c78",
@@ -4024,41 +3943,7 @@
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
       "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-malopolskie-tatrzanski-zoniowka-1970m2-mzn2046036612",
-      "scraped_at": "2026-03-25T08:13:33.158784"
-    },
-    {
-      "id": "7c9f6a0c923b",
-      "source": "Morizon",
-      "location_area": "Zakopane i okolice (20 km)",
-      "location_key": "zakopane",
-      "title": "Działka budowlana z widokiem Zakopane",
-      "price": 1200000,
-      "price_currency": "PLN",
-      "area_m2": null,
-      "city": "Zakopane, tatrzański",
-      "description": "",
-      "images": [
-        "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
-      ],
-      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-malopolskie-tatrzanski-726m2-mzn2046015792",
-      "scraped_at": "2026-03-25T08:13:33.160929"
-    },
-    {
-      "id": "95247d4608ae",
-      "source": "Morizon",
-      "location_area": "Zakopane i okolice (20 km)",
-      "location_key": "zakopane",
-      "title": "Działka Inwestycyjna budowlana oraz rolno-leśna",
-      "price": 8500000,
-      "price_currency": "PLN",
-      "area_m2": null,
-      "city": "Za Strugiem, Zakopane, tatrzański",
-      "description": "",
-      "images": [
-        "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
-      ],
-      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-malopolskie-tatrzanski-za-strugiem-5485m2-mzn2046013324",
-      "scraped_at": "2026-03-25T08:13:33.162944"
+      "scraped_at": "2026-03-25T20:04:30.283000"
     },
     {
       "id": "7572b34d9fd1",
@@ -4075,7 +3960,41 @@
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
       "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-malopolskie-tatrzanski-5069m2-mzn2044909197",
-      "scraped_at": "2026-03-25T08:13:33.165077"
+      "scraped_at": "2026-03-25T20:04:30.285266"
+    },
+    {
+      "id": "7c9f6a0c923b",
+      "source": "Morizon",
+      "location_area": "Zakopane i okolice (20 km)",
+      "location_key": "zakopane",
+      "title": "Działka budowlana z widokiem Zakopane",
+      "price": 1200000,
+      "price_currency": "PLN",
+      "area_m2": null,
+      "city": "Zakopane, tatrzański",
+      "description": "",
+      "images": [
+        "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
+      ],
+      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-malopolskie-tatrzanski-726m2-mzn2046015792",
+      "scraped_at": "2026-03-25T20:04:30.287431"
+    },
+    {
+      "id": "95247d4608ae",
+      "source": "Morizon",
+      "location_area": "Zakopane i okolice (20 km)",
+      "location_key": "zakopane",
+      "title": "Działka Inwestycyjna budowlana oraz rolno-leśna",
+      "price": 8500000,
+      "price_currency": "PLN",
+      "area_m2": null,
+      "city": "Za Strugiem, Zakopane, tatrzański",
+      "description": "",
+      "images": [
+        "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
+      ],
+      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-malopolskie-tatrzanski-za-strugiem-5485m2-mzn2046013324",
+      "scraped_at": "2026-03-25T20:04:30.289484"
     },
     {
       "id": "01b6c1607dd5",
@@ -4092,7 +4011,7 @@
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
       "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-malopolskie-tatrzanski-1450m2-mzn2046814881",
-      "scraped_at": "2026-03-25T08:13:33.167146"
+      "scraped_at": "2026-03-25T20:04:30.291559"
     },
     {
       "id": "794536743802",
@@ -4109,24 +4028,7 @@
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
       "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-malopolskie-tatrzanski-losiowki-2937m2-mzn2045152587",
-      "scraped_at": "2026-03-25T08:13:33.169174"
-    },
-    {
-      "id": "078848201c23",
-      "source": "Morizon",
-      "location_area": "Zakopane i okolice (20 km)",
-      "location_key": "zakopane",
-      "title": "Działka rolna z panoramicznym widokiem na Tatry",
-      "price": 290000,
-      "price_currency": "PLN",
-      "area_m2": null,
-      "city": "Zakopane, tatrzański",
-      "description": "",
-      "images": [
-        "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
-      ],
-      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-malopolskie-tatrzanski-2303m2-mzn2046551250",
-      "scraped_at": "2026-03-25T08:13:33.171193"
+      "scraped_at": "2026-03-25T20:04:30.293671"
     },
     {
       "id": "0759c82bd907",
@@ -4143,7 +4045,24 @@
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
       "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-malopolskie-tatrzanski-2500m2-mzn2046674711",
-      "scraped_at": "2026-03-25T08:13:33.173186"
+      "scraped_at": "2026-03-25T20:04:30.295723"
+    },
+    {
+      "id": "078848201c23",
+      "source": "Morizon",
+      "location_area": "Zakopane i okolice (20 km)",
+      "location_key": "zakopane",
+      "title": "Działka rolna z panoramicznym widokiem na Tatry",
+      "price": 290000,
+      "price_currency": "PLN",
+      "area_m2": null,
+      "city": "Zakopane, tatrzański",
+      "description": "",
+      "images": [
+        "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
+      ],
+      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-malopolskie-tatrzanski-2303m2-mzn2046551250",
+      "scraped_at": "2026-03-25T20:04:30.297786"
     },
     {
       "id": "463cdd24a2e6",
@@ -4160,7 +4079,7 @@
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
       "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-malopolskie-tatrzanski-jaszczurowka-1645m2-mzn2046865920",
-      "scraped_at": "2026-03-25T08:13:33.175218"
+      "scraped_at": "2026-03-25T20:04:30.299882"
     },
     {
       "id": "8f59b5da498a",
@@ -4177,7 +4096,7 @@
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
       "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-malopolskie-tatrzanski-bachledzki-wierch-7328m2-mzn2046173046",
-      "scraped_at": "2026-03-25T08:13:33.176409"
+      "scraped_at": "2026-03-25T20:04:30.301122"
     },
     {
       "id": "9f37d8fb2db2",
@@ -4194,7 +4113,7 @@
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
       "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-malopolskie-tatrzanski-wojdyly-855m2-mzn2046642914",
-      "scraped_at": "2026-03-25T08:13:33.178420"
+      "scraped_at": "2026-03-25T20:04:30.303206"
     },
     {
       "id": "b5fba42e9a33",
@@ -4211,7 +4130,24 @@
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
       "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-malopolskie-tatrzanski-1486m2-mzn2043409374",
-      "scraped_at": "2026-03-25T08:13:33.180445"
+      "scraped_at": "2026-03-25T20:04:30.305270"
+    },
+    {
+      "id": "14c95e123d33",
+      "source": "Morizon",
+      "location_area": "Zakopane i okolice (20 km)",
+      "location_key": "zakopane",
+      "title": "BUSTRYK NA SPRZEDAŻ WIDOKOWA DZIAŁKA",
+      "price": 1499000,
+      "price_currency": "PLN",
+      "area_m2": null,
+      "city": "Zakopane, tatrzański",
+      "description": "",
+      "images": [
+        "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
+      ],
+      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-malopolskie-tatrzanski-1423m2-mzn2044877571",
+      "scraped_at": "2026-03-25T20:04:30.307515"
     },
     {
       "id": "cd665bc61ce4",
@@ -4228,7 +4164,7 @@
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
       "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-malopolskie-tatrzanski-8785m2-mzn2043701434",
-      "scraped_at": "2026-03-25T08:13:33.182470"
+      "scraped_at": "2026-03-25T20:04:30.309559"
     },
     {
       "id": "b6144697b1c9",
@@ -4245,7 +4181,7 @@
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
       "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-malopolskie-tatrzanski-3200m2-mzn2045844634",
-      "scraped_at": "2026-03-25T08:13:33.184527"
+      "scraped_at": "2026-03-25T20:04:30.311668"
     },
     {
       "id": "22f5fdb20ffd",
@@ -4262,7 +4198,7 @@
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
       "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-malopolskie-tatrzanski-1831m2-mzn2045895511",
-      "scraped_at": "2026-03-25T08:13:33.186570"
+      "scraped_at": "2026-03-25T20:04:30.313824"
     },
     {
       "id": "393a135ecfdb",
@@ -4279,7 +4215,7 @@
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
       "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-malopolskie-tatrzanski-2061m2-mzn2046561444",
-      "scraped_at": "2026-03-25T08:13:33.188601"
+      "scraped_at": "2026-03-25T20:04:30.315879"
     },
     {
       "id": "31bc49151811",
@@ -4296,7 +4232,7 @@
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
       "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-malopolskie-tatrzanski-890m2-mzn2046292700",
-      "scraped_at": "2026-03-25T08:13:33.190619"
+      "scraped_at": "2026-03-25T20:04:30.317952"
     },
     {
       "id": "683e4b951bc8",
@@ -4313,7 +4249,7 @@
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
       "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-malopolskie-tatrzanski-636m2-mzn2046526786",
-      "scraped_at": "2026-03-25T08:13:33.192636"
+      "scraped_at": "2026-03-25T20:04:30.320062"
     },
     {
       "id": "3499f28e9d3c",
@@ -4330,7 +4266,24 @@
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
       "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-malopolskie-tatrzanski-676m2-mzn2046591578",
-      "scraped_at": "2026-03-25T08:13:33.194753"
+      "scraped_at": "2026-03-25T20:04:30.322264"
+    },
+    {
+      "id": "c9249a501195",
+      "source": "Morizon",
+      "location_area": "Zakopane i okolice (20 km)",
+      "location_key": "zakopane",
+      "title": "NA SPRZEDAŻ DZIAŁKA BUDOWLANA W ZAKOPANEM",
+      "price": 690000,
+      "price_currency": "PLN",
+      "area_m2": null,
+      "city": "Zakopane, tatrzański",
+      "description": "",
+      "images": [
+        "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
+      ],
+      "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-malopolskie-tatrzanski-539m2-mzn2045921254",
+      "scraped_at": "2026-03-25T20:04:30.324354"
     },
     {
       "id": "0b9e66b150c7",
@@ -4347,7 +4300,7 @@
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
       "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-malopolskie-tatrzanski-cyrhla-1018m2-mzn2046177917",
-      "scraped_at": "2026-03-25T08:13:33.196827"
+      "scraped_at": "2026-03-25T20:04:30.326434"
     },
     {
       "id": "ef205b2e2a06",
@@ -4364,7 +4317,7 @@
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
       "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-malopolskie-tatrzanski-3100m2-mzn2044978532",
-      "scraped_at": "2026-03-25T08:13:33.198880"
+      "scraped_at": "2026-03-25T20:04:30.328528"
     },
     {
       "id": "f8c0d491c44c",
@@ -4381,7 +4334,7 @@
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
       "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-malopolskie-tatrzanski-droga-zubka-1168m2-mzn2031033682",
-      "scraped_at": "2026-03-25T08:13:33.200918"
+      "scraped_at": "2026-03-25T20:04:30.330612"
     },
     {
       "id": "a27cb4f5c546",
@@ -4398,7 +4351,7 @@
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
       "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-malopolskie-tatrzanski-hrube-2720m2-mzn2044669008",
-      "scraped_at": "2026-03-25T08:13:33.202958"
+      "scraped_at": "2026-03-25T20:04:30.332713"
     },
     {
       "id": "4aa2164cfaf9",
@@ -4415,7 +4368,7 @@
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
       "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-malopolskie-tatrzanski-565m2-mzn2046282668",
-      "scraped_at": "2026-03-25T08:13:33.204989"
+      "scraped_at": "2026-03-25T20:04:30.334843"
     },
     {
       "id": "5d7489e5e808",
@@ -4432,7 +4385,7 @@
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
       "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-malopolskie-tatrzanski-2500m2-mzn2044720766",
-      "scraped_at": "2026-03-25T08:13:33.207059"
+      "scraped_at": "2026-03-25T20:04:30.336935"
     },
     {
       "id": "54543931e522",
@@ -4449,7 +4402,7 @@
         "https://www.morizon.pl/nuxt-assets/camera.BpJ--F8z.svg"
       ],
       "url": "https://www.morizon.pl/oferta/sprzedaz-dzialka-malopolskie-tatrzanski-1020m2-mzn2027470342",
-      "scraped_at": "2026-03-25T08:13:33.209188"
+      "scraped_at": "2026-03-25T20:04:30.339015"
     }
   ]
 }
